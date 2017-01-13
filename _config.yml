@@ -19,7 +19,7 @@ tiles-count: 6
 
 # Social settings
 500px_url:
-facebook_url:
+facebook_url: https://www.facebook.com/profile.php?id=100007269403339
 github_url: https://github.com/orcuslc
 # gitlab_url: https://gitlab.com/u/andrewbanchich
 googleplus_url: https://plus.google.com/u/0/116131504514907782570
