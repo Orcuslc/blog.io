@@ -3,7 +3,7 @@ title: Chuan Lu
 subtitle: (Orcuslc)
 email: orcuslc@hotmail.com
 description: Technical Blog of Chuan
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://orcuslc.github.io" # the base hostname & protocol for your site
 author: Chuan
 street_address: 440 Guoding Road
