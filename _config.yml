@@ -4,7 +4,7 @@ subtitle: (Orcuslc)
 email: orcuslc@hotmail.com
 description: Technical Blog, by Chuan
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: "https://orcuslc.github.io" # the base hostname & protocol for your site
+url: "https://andrewbanchich.gitlab.io" # the base hostname & protocol for your site
 author: Chuan
 street_address: 440 Guoding Road
 city: Fudan University
