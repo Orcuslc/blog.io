@@ -1,9 +1,11 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 ---
 layout: post
-title: Aliquam
-description: Ipsum dolor sit amet
-image: assets/images/pic01.jpg
+title: Solutions to Matrix Computations
+description: *Matrix Computations* ($4^{th}$ Edition), by Gene Golub, Van Loan.
+image: assets/images/Matrix Computations.jpg
 ---
+
 
 Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. 
 Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. 
