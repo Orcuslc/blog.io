@@ -2,8 +2,7 @@
 title: Chuan Lu
 subtitle: (Orcuslc)
 email: orcuslc@hotmail.com
-description: Matrix Computations, Image Processing, 
-              Statistical Learning and Python
+description: Matrix Computations, Image Processing, Statistical Learning and Computer Vision; Python, C++, MATLAB and Linux.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://orcuslc.github.io" # the base hostname & protocol for your site
 author: Chuan
