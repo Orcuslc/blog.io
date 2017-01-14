@@ -1,9 +1,8 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 ---
 layout: post
 title: Solutions to Matrix Computations
 description: *Matrix Computations* ($4^{th}$ Edition), by Gene Golub, Van Loan.
-image: assets/images/Matrix Computations.jpg
+image: assets/images/Matrix-Computations.jpg
 ---
 
 
