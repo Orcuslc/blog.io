@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Solutions to Matrix Computations
-description: Matrix Computations ($4^{th}$ Edition), by Gene Golub, Van Loan.
-image: assets/images/Matrix-Computations.jpg
+description: Matrix Computations (4th Edition by Gene Golub and Van Loan)
+image: assets/images/IMG_20161217_153320.jpg
 ---
 
 
