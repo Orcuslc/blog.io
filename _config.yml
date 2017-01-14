@@ -4,8 +4,8 @@ subtitle: (Orcuslc)
 email: orcuslc@hotmail.com
 description: Matrix Computations, Image Processing, 
               Statistical Learning and Python
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://chuanlu.xyz" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://orcuslc.github.io" # the base hostname & protocol for your site
 author: Chuan
 street_address: 440 Guoding Road
 city: Fudan University
