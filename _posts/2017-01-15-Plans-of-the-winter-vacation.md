@@ -15,3 +15,6 @@ image: assets/images/IMG_20161203_153138~2.jpg
 1. Randomly Distributed Noise: Arithmetic and Geometric Mean filters; Midpoint filter; 
 2. Impulse Noise: Contraharmonic filter; Median, Max/Min filter; 
 3. Combined Noise: Alpha-trimmed Mean filter(cutting out the largest and smallest points and then return the mean of remaining part);
+4. Adaptive filters (Chpt 5, *DIP*)
+
+## 1.17
