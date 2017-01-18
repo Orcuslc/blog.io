@@ -18,3 +18,7 @@ image: assets/images/IMG_20161203_153138~2.jpg
 4. Adaptive filters (Chpt 5, *DIP*)
 
 ## 1.17
+7.1, *Matrix Computations*
+
+## 1.18
+7.2, 7.3, *Matrix Computations*;
