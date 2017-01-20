@@ -27,4 +27,5 @@ image: assets/images/IMG_20161203_153138~2.jpg
 ## 1.19
 (Since 16.11.1 *The Great Gatsby*, F. Scott Fitzgerald)
 
-## 
+## 1.20
+7.4~7.6, *Matrix Computations*
