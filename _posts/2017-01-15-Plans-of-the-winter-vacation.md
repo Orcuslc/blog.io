@@ -29,3 +29,10 @@ image: assets/images/IMG_20161203_153138~2.jpg
 
 ## 1.20
 7.4~7.6, *Matrix Computations*
+
+## 1.21
+Chapter 6, *DIP*
+
+## 1.22
+4.1~4.3, *SICP*
+7.7~7.9, *Matrix Computations*
