@@ -35,7 +35,6 @@ Result: Beat 9.77%.
 ## 110. Balanced Binary Tree
 Using recursion;
 Code:  
-```Python
     # Definition for a binary tree node.
     # class TreeNode(object):
     #     def __init__(self, x):
