@@ -6,10 +6,11 @@ image: assets/images/IMG_20161203_142432.jpg
 ---
 
 ## 7. Reverse integer  
-We need to consider the Overflowing cases:
+We need to consider the Overflowing cases:  
 if `d = a*b+c` overflows, then `(d-c)/b != a`.  
-Code: (C++ Version)
-```C++
+Code: (C++ Version)  
+
+{%highlight C++%}
     class Solution {  
     public:  
         int reverse(int x) {  
@@ -28,12 +29,12 @@ Code: (C++ Version)
             return(rev_result);  
         }  
     };
-``` 
+{%endhighlight%} 
 Result: Beat 9.77%.  
 
 ## 110. Balanced Binary Tree
 Using recursion;
-Code:
+Code:  
 ```Python
     # Definition for a binary tree node.
     # class TreeNode(object):
@@ -41,7 +42,7 @@ Code:
     #         self.val = x
     #         self.left = None
     #         self.right = None
-
+  
     class Solution(object):
         def isBalanced(self, root):
             """
@@ -54,7 +55,7 @@ Code:
                 return self.isBalanced(root.left) and self.isBalanced(root.right)
             else:
                 return False
-        
+       
         def height(self, root):
             if root == None:
                 return 0
