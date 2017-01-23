@@ -30,9 +30,9 @@ slack_url:
 twitter_url: https://twitter.com/orcuslc
 
 # Build settings
-markdown: kramdown
-kramdown:
-  input: GFM
+markdown: redcarpet
+# kramdown:
+#   input: GFM
 
 sass:
   style: compressed
