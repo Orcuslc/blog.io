@@ -9,7 +9,8 @@ image: assets/images/IMG_20161203_142432.jpg
 要考虑到Overflow的情形:  
 if `d = a*b+c` overflows, then `(d-c)/b != a`.  
 代码如下: (C++ Version)  
-`class Solution {  
+```
+class Solution {  
 public:  
     int reverse(int x) {  
         if(x > -10 && x < 10) {  
@@ -26,5 +27,6 @@ public:
         }  
         return(rev_result);  
     }  
-};`  
+};
+``` 
 结果: Beat 9.77%.  
