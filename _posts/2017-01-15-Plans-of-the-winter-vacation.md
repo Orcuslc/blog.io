@@ -35,4 +35,8 @@ Chapter 6, *DIP*
 
 ## 1.22
 4.1~4.3, *SICP*
-7.7~7.9, *Matrix Computations*
+7.7~7.8, *Matrix Computations*
+
+## 1.23
+Driving exercise;
+LeetCode, 2 Problems;
