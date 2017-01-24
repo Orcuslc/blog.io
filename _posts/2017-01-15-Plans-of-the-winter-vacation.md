@@ -40,3 +40,6 @@ Chapter 6, *DIP*
 ## 1.23  
 Driving exercise;  
 LeetCode, 2 Problems;  
+
+# 1.24
+8.1~8.5, *Matrix Computations*

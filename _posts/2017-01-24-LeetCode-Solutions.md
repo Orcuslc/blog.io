@@ -62,3 +62,43 @@ class Solution(object):
         return max(self.height(root.left), self.height(root.right))+1
 {%endhighlight%}
 Result: Beat 38.34%.
+
+## 415. Add strings
+Code:(C++ Version)  
+{%highlight C++%}
+class Solution {
+public:
+    string addStrings(string num1, string num2) {
+        int len1 = num1.size(), len2 = num2.size();
+        if(len1 < len2) {
+            return(_addStrings(num2, num1, len2, len1));
+        }
+        else {
+            return(_addStrings(num1, num2, len1, len2));
+        }
+    }
+    
+    string _addStrings(string long_string, string short_string, int long_len, int short_len) {
+        int carry = 0, i = long_len - 1, j = short_len - 1;
+        string res = "";
+        while(i >= 0 || carry) {
+            int sum = 0;
+            if(i >= 0) {
+                sum += long_string[i] - '0';
+                i--;
+            }
+            if(j >= 0) {
+                sum += short_string[j] - '0';
+                j--;
+            }
+            sum += carry;
+            carry = sum / 10;
+            sum = sum % 10;
+            res = res + to_string(sum);
+        }
+        reverse(res.begin(), res.end());
+        return(res);
+    }   
+};
+{%endhighlight%}
+Result: Beat 12.18%.
