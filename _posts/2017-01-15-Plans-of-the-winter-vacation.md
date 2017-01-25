@@ -38,8 +38,13 @@ Chapter 6, *DIP*
 7.7~7.8, *Matrix Computations*  
 
 ## 1.23  
-Driving exercise;  
+Driving training;  
 LeetCode, 2 Problems;  
 
 # 1.24
-8.1~8.5, *Matrix Computations*
+8.1~8.5, *Matrix Computations*  
+LeetCode, 2 Problems;
+
+# 1.25
+Driving training;  
+8.6~8.7, *Matrix Computations*  

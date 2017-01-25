@@ -101,4 +101,29 @@ public:
     }   
 };
 {%endhighlight%}
-Result: Beat 12.18%.
+Result: Beat 12.18%.  
+
+## 441. Arranging Coins
+This is a simple Math problem...
+Hint: the input `n` could be large, so it should be transformed to `long` type.
+{%highlight C++%}
+class Solution {
+public:
+    int arrangeCoins(int n) {
+        return(floor(sqrt(double(8*(long)n+1))-1)/2);
+    }
+};
+{%endhighlight%}
+Result: Beat 24.9%.  
+If we make a simple change:
+{%highlight C++%}
+class Solution {
+public:
+    int arrangeCoins(long n) {
+        return(floor(sqrt(double(8*n+1))-1)/2);
+    }
+};
+{%endhighlight%}
+The runtime was reduced from 50ms to 20ms without the type transform.  
+Result: Beat 39.35%.  
+
