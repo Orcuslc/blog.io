@@ -48,3 +48,6 @@ LeetCode, 2 Problems;
 # 1.25
 Driving training;  
 8.6~8.7, *Matrix Computations*  
+
+# 1.27
+*Galactic Empire I*, Isaac Asimov
