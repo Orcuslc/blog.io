@@ -50,4 +50,7 @@ Driving training;
 8.6~8.7, *Matrix Computations*  
 
 # 1.27
-*Galactic Empire I*, Isaac Asimov
+*Galactic Empire I, II*, Isaac Asimov
+
+# 1.28
+*Galactic Empire III, IV*, Isaac Asimov
