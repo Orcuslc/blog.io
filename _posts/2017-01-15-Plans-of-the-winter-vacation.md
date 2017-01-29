@@ -54,6 +54,3 @@ Driving training;
 
 # 1.28
 *Galactic Empire III, IV*, Isaac Asimov
-
-# 1.29
-*Galactic Empire V, VI, VII*, Isaac Asimov
