@@ -50,10 +50,13 @@ Driving training;
 8.6~8.7, *Matrix Computations*  
 
 # 1.27
-*Galactic Empire I, II*, Isaac Asimov
+*Galactic Empire: Foundation; Foundation and Empire*, Isaac Asimov
 
 # 1.28
-*Galactic Empire III, IV*, Isaac Asimov
+*Galactic Empire: Second Foundation; Prelude to Foundation*, Isaac Asimov
 
 # 1.29
-*Galactic Empire V, VI, VII*, Isaac Asimov
+*Galactic Empire: Forward the Foundation; Foundation's Edge; Foundation and Earth*, Isaac Asimov
+
+# 1.30
+Chapter 7, *DIP*
