@@ -1,4 +1,5 @@
----
+
+#---
 layout: post
 title: Plans of winter vacation, 2017
 description: 1.15-2.25
@@ -60,3 +61,10 @@ Driving training;
 
 # 1.30
 Chapter 7, *DIP*
+
+# 1.31
+4.4, *SICP*  
+*The Stars, Like Dust*  
+*Pebble in the Sky*  
+*The Currents of Space*,  
+Isaac Asimov
