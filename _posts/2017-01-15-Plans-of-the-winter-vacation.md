@@ -68,6 +68,3 @@ Chapter 7, *DIP*
 *Pebble in the Sky*  
 *The Currents of Space*,  
 Isaac Asimov
-
-# 2.1
-9.1~9.2, *Matrix Computations*
