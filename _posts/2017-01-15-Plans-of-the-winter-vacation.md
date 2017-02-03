@@ -89,4 +89,4 @@ Isaac Asimov
 Isaac Asimov
 
 # 2.4
-Chpt 1~Chpt 11, *The Feynman Lectures on Physics*
+Chpt 1~Chpt 10, *The Feynman Lectures on Physics*
