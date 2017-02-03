@@ -57,7 +57,10 @@ Driving training;
 *Galactic Empire: Second Foundation; Prelude to Foundation*, Isaac Asimov
 
 # 1.29
-*Galactic Empire: Forward the Foundation; Foundation's Edge; Foundation and Earth*, Isaac Asimov
+*Forward the Foundation*   
+*Foundation's Edge*   
+*Foundation and Earth*,  
+Isaac Asimov
 
 # 1.30
 Chapter 7, *DIP*
@@ -82,3 +85,8 @@ Isaac Asimov
 Isaac Asimov
 
 # 2.3
+*The End of Eternity*,  
+Isaac Asimov
+
+# 2.4
+Chpt 1~Chpt 11, *The Feynman Lectures on Physics*
