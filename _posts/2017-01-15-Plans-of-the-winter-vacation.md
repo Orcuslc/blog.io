@@ -71,3 +71,14 @@ Isaac Asimov
 
 # 2.1
 9.1~9.2, *Matrix Computations*
+*I, Robot*  
+*The Caves of Steel*,  
+Isaac Asimov
+
+# 2.2
+*The Naked Sun*
+*The Robots of Dawn*   
+*Robots and Empire*,  
+Isaac Asimov
+
+# 2.3
