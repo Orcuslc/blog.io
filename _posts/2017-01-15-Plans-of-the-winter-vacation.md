@@ -67,7 +67,6 @@ Chapter 7, *DIP*
 # 1.31
 4.4, *SICP*  
 *The Stars, Like Dust*  
-*Pebble in the Sky*  
 *The Currents of Space*,  
 Isaac Asimov
 
@@ -88,4 +87,5 @@ Isaac Asimov
 Isaac Asimov
 
 # 2.4
-Chpt 1~Chpt 10, *The Feynman Lectures on Physics*
+Chpt 1~Chpt 10, *The Feynman Lectures on Physics*  
+*Pebble in the Sky*, Isaac Asimov
