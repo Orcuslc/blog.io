@@ -41,51 +41,55 @@ Chapter 6, *DIP*
 Driving training;  
 LeetCode, 2 Problems;  
 
-# 1.24
+## 1.24
 8.1~8.5, *Matrix Computations*  
 LeetCode, 2 Problems;
 
-# 1.25
+## 1.25
 Driving training;  
 8.6~8.7, *Matrix Computations*  
 
-# 1.27
+## 1.27
 *Galactic Empire: Foundation; Foundation and Empire*, Isaac Asimov
 
-# 1.28
+## 1.28
 *Galactic Empire: Second Foundation; Prelude to Foundation*, Isaac Asimov
 
-# 1.29
+## 1.29
 *Forward the Foundation*   
 *Foundation's Edge*   
 *Foundation and Earth*,  
 Isaac Asimov
 
-# 1.30
+## 1.30
 Chapter 7, *DIP*
 
-# 1.31
+## 1.31
 4.4, *SICP*  
 *The Stars, Like Dust*  
 *The Currents of Space*,  
 Isaac Asimov
 
-# 2.1
+## 2.1
 9.1~9.2, *Matrix Computations*
 *I, Robot*  
 *The Caves of Steel*,  
 Isaac Asimov
 
-# 2.2
+## 2.2
 *The Naked Sun*
 *The Robots of Dawn*   
 *Robots and Empire*,  
 Isaac Asimov
 
-# 2.3
+## 2.3
 *The End of Eternity*,  
 Isaac Asimov
 
-# 2.4
+## 2.4
 Chpt 1~Chpt 10, *The Feynman Lectures on Physics*  
 *Pebble in the Sky*, Isaac Asimov
+
+## 2.5
+Chpt 11~Chpt 15, *The Feynman Lectures on Physics*  
+Driving training
