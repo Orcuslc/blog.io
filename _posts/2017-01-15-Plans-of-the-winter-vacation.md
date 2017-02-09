@@ -93,3 +93,14 @@ Chpt 1~Chpt 10, *The Feynman Lectures on Physics*
 ## 2.5
 Chpt 11~Chpt 15, *The Feynman Lectures on Physics*  
 Driving training
+
+## 2.6
+Driving training
+
+## 2.7
+Driving training
+
+## 2.8
+Chpt 16~Chpt 25, *The Feynman Lectures on Physics*
+
+## 
