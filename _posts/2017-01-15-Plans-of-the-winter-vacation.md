@@ -103,4 +103,21 @@ Driving training
 ## 2.8
 Chpt 16~Chpt 25, *The Feynman Lectures on Physics*
 
-## 
+## 2.9
+Driving training
+
+## 2.10
+Driving training
+
+## 2.11
+Driving training
+
+## 2.12
+Driving training
+
+## 2.13
+Driving test(II)
+
+## 2.14
+Driving training
+
