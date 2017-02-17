@@ -116,7 +116,7 @@ Driving training
 Driving training
 
 ## 2.13
-Driving test(II)
+Driving test(section II)
 
 ## 2.14
 Driving training
@@ -126,3 +126,7 @@ Driving training
 
 ## 2.16
 Chpt 26~Chpt 31, *The Feynman Lectures on Physics*
+
+## 2.17
+*Hyperion II*
+
