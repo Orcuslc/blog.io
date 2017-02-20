@@ -130,3 +130,11 @@ Chpt 26~Chpt 31, *The Feynman Lectures on Physics*
 ## 2.17
 *Hyperion II*
 
+## 2.18
+*Hyperion III*
+
+## 2.19
+Chpt 32~Chpt 41, *The Feynman Lectures on Physics*
+
+## 2.20
+*Hyperion IV*
