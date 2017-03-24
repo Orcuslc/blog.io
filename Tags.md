@@ -7,5 +7,5 @@ nav-menu: true
 ---
 
 {% for tag in site.tags %}
-<li><a href="{{ tag.permalink }}">{{ tag.name }}</a></li>
+<li><a href="{{ tag.permalink }}">{{ tag }}</a></li>
 {% endfor %}
