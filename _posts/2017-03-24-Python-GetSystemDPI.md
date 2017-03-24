@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Python: Get Win32 System DPI and Resolution
+title: Python Get Win32 System DPI and Resolution
 description: Python, Win32
 <!-- image: assets/images/IMG_20161221_181014.jpg -->
 nav-menu: true
+tags: [Python, Win32]
 ---
 I bumped into a problem when testing [BingBest](https://github.com/orcuslc/bingbest):
 
