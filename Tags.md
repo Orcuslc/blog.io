@@ -7,8 +7,7 @@ nav-menu: true
 ---
 
 {% for category in site.categories %}
-<h2>{{ category | first }}</h2>
-</span>{{ category | last | size }}</span>
+<h2><li><a href = "/categories{{ category | first }}/" title="View All Posts">{{ category | first }}{{ category | last | size }}</a></h2>
 <ul class="arc-list">
     {% for post in category.last %}
         <li>{{ post.date | date:"%d/%m/%Y"}}<a href="{{ post.url }}">{{ post.title }}</a></li>
