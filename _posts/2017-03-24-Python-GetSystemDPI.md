@@ -3,8 +3,7 @@ layout: post
 title: Python Get Win32 System DPI and Resolution
 description: Python, Win32
 <!-- image: assets/images/IMG_20161221_181014.jpg -->
-tags: [Python, Win32]
-category: [Python, Win32]
+category: Python
 ---
 I bumped into a problem when testing [BingBest](https://github.com/orcuslc/bingbest):
 
