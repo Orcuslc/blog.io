@@ -1,4 +1,8 @@
 # Site settings
+collections:
+  tags:
+    output: true
+    permalink: /tags/:name/
 title: Chuan Lu
 subtitle: (Orcuslc)
 email: orcuslc@hotmail.com
