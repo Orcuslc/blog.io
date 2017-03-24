@@ -7,5 +7,5 @@ nav-menu: true
 ---
 
 {% for tag in site.tags %}
-<li><h1><a href="{{ site.baseurl }}/{{ tag }}">{{ tag }}</a></h1></li>
+<li><a href="{{ site.url }}/{{ tag }}"><h1>{{ tag }}</h1></a></li>
 {% endfor %}
