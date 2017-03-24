@@ -3,6 +3,8 @@ layout: post
 title: Solutions to Matrix Computations
 description: Matrix Computations (4th Edition by Gene Golub and Van Loan)
 image: assets/images/IMG_20161217_153320.jpg
+category: Solutions
+tag: Matrix Computation
 ---
 
 ## Problem 2.1.9

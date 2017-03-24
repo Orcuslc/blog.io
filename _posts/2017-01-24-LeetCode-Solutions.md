@@ -3,6 +3,8 @@ layout: post
 title: Solutions to LeetCode Problems
 description: C++(Mainly) and Python
 image: assets/images/IMG_20161203_142432.jpg
+category: Solutions
+tag: Algorithm
 ---
 
 ## 7. Reverse integer  
