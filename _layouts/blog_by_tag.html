@@ -1,18 +1,32 @@
 {% include head.html %}
-
+<!-- <section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>{{ page.title }}</h1>
+		</header>
+		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
+		<p>{{ content }}</p>
+	</div>
+</section> -->
 
 <body>
 	<h1>Articles by tag :{{ page.tag }}</h1>
     {% include header.html %} 
-    <div>
-	{% if site.tags[page.tag] %}
-		{% for post in site.tags[page.tag] %}
-			<a href="{{ post.url }}">{{ post.title }}</a>
-		{% endfor %}
-	{% else %}
-		<p>There are no posts for this tag.</p>
-	{% endif %}
-	</div>
+    <section id="one">
+    	<div class="inner">
+    		<header class="major">
+    			<h1>Articles by: {{ page.tag }}</h1>
+    		</header>
+    		{% if site.tags[page.tag] %}
+				{% for post in site.tags[page.tag] %}
+					<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+				{% endfor %}
+			{% else %}
+				<p>There are no posts for this tag.</p>
+			{% endif %}
+		</div>
+    </section>
+	
     {% include footer.html %}
 
 </body>
