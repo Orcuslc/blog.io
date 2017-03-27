@@ -9,3 +9,14 @@ tag: Algorithm
 
 See:
 https://github.com/Orcuslc/Learning/tree/master/POJ
+
+The following are some summaries to each problem.
+
+- 1000: trivial  
+- 1001: Not submitted yet  
+- 1002: Used a large array; Going to replace with a hash table  
+- 1003: Math problem, with a binary search  
+- 1004: Math problem with formatted output  
+- 1005: Simple math problem  
+- 1006: A number theory problem  
+- 1007: Merge sort to count reversed pairs; insertion sort for output  
