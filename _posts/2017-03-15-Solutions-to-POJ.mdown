@@ -20,3 +20,4 @@ The following are some summaries to each problem.
 - 1005: Simple math problem  
 - 1006: A number theory problem  
 - 1007: Merge sort to count reversed pairs; insertion sort for output  
+- 1008: Math Problem; used <map> to create hash tables;(Checked discussion to correct the wrong answer)
