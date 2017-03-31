@@ -1,4 +1,4 @@
 --
-slug: Plan
+slug: plan
 name: Plan
 --

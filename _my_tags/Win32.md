@@ -1,4 +1,4 @@
 --
-slug: Win32
+slug: win32
 name: Win32
 --
