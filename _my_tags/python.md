@@ -1,4 +1,4 @@
 ---
-slug: Python
+slug: python
 name: Python
 ---
