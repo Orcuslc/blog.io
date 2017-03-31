@@ -20,3 +20,4 @@ The following are some summaries to each problem.
 -  1008: Math Problem; used <map> to create hash tables;(Checked discussion to correct the wrong answer)
 -  1009: Checked http://leons.im/posts/poj-1009-edge-detection-report/. We can know that, changing points in the output image are all located in the neighbourhood of changing points in the input image; use STL map and vector.
 -  1011: DFS; Used a jumping skill to shorten the search time.
+-  1010: DFS; (注意! 题目里说邮票种数不超过25, 但是judge时是会超过25的! 我说怎么总是WA....)
