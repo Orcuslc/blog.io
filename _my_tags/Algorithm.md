@@ -1,4 +1,4 @@
---
+---
 slug: algorithm
 name: Algorithm
---
+---
