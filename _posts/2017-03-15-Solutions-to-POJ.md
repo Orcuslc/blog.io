@@ -1,7 +1,7 @@
 ---
 title: Solutions to POJ
 category: solutions
-tag: algorithm
+tag: [algorithm]
 ---
 
 See:

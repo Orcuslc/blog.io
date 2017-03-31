@@ -1,7 +1,7 @@
 ---
 title: Plans of winter vacation, 2017
 category: others
-tag: plan
+tag: [plan]
 ---
 # Done Is Better Than Perfect.
 

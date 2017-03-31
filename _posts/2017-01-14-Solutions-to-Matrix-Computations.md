@@ -1,7 +1,7 @@
 ---
 title: Solutions to Matrix Computations
 category: solutions
-tag: matrix-computation
+tag: [matrix-computation]
 ---
 
 ## Problem 2.1.9

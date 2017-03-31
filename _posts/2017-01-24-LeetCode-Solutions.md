@@ -1,7 +1,7 @@
 ---
 title: Solutions to LeetCode Problems
 category: solutions
-tag: algorithm
+tag: [algorithm]
 ---
 
 ## 7. Reverse integer  
