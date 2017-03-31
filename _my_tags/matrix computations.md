@@ -1,4 +1,4 @@
 --
-slug: Matrix Computations
+slug: matrix-computations
 name: Matrix Computations
 --
