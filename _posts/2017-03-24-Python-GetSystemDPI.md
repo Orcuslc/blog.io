@@ -1,8 +1,5 @@
 ---
-layout: post
 title: Python Get Win32 System DPI and Resolution
-description: Python, Win32
-<!-- image: assets/images/IMG_20161221_181014.jpg -->
 category: programming
 tags: [python, win32]
 ---

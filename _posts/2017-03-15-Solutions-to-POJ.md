@@ -1,8 +1,5 @@
 ---
-layout: post
 title: Solutions to POJ
-description: C++
-image: assets/images/IMG_20161221_181014.jpg
 category: solutions
 tag: algorithm
 ---
