@@ -1,17 +1,10 @@
-<!DOCTYPE html>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+---
+layout: default
+---
 
-{% include head.html %}
+{% capture page_title %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endcapture %}
+{% capture page_subtitle %}{% if page.subtitle %}{{ page.subtitle }}{% else %}&nbsp;{% endif %}{% endcapture %}
 
-<body>
+{% include title_header.html title=page_title subtitle=page_subtitle %}
 
-    {% include header.html %} {{ content }} {% include footer.html %}
-
-</body>
-
-</html>
+<div class="m-t-3 text-justify">{{ content }}</div>

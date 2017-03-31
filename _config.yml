@@ -1,42 +1,76 @@
-# Site settings
+# Where things are
 collections:
-  tags:
+  my_categories:
     output: true
-    permalink: /tags/:name/
-title: Chuan Lu
-subtitle: (Orcuslc)
-email: orcuslc@hotmail.com
-description: Matrix Computations, Image Processing, Statistical Learning and Computer Vision; Python, C++, MATLAB and Linux.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://orcuslc.github.io" # the base hostname & protocol for your site
-author: Chuan
-street_address: 440 Guoding Road
-city: Fudan University
-state: Shanghai
-zip_code: 200433
-country: P.R.C
-phone: +86-152-2192-5008
+    permalink: /blog/category/:name/
+  my_tags:
+    output: true
+    permalink: /blog/tag/:name/
 
-# Homepage tiles
-tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 12
+# Handling Reading
+exclude: [Gemfile, README.md]
 
-# Social settings
-500px_url:
-facebook_url: https://www.facebook.com/profile.php?id=100007269403339
-github_url: https://github.com/orcuslc
-# gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/116131504514907782570
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/chuanlu
-pinterest_url:
-slack_url:
-twitter_url: https://twitter.com/orcuslc
+# Plugins
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
 
-# Build settings
-markdown: kramdown
-# kramdown:
-#   input: GFM
+# Conversion
+markdown:    kramdown
+highlighter: rouge
+excerpt_separator: "\n\n\n"
+
+# Outputting
+permalink: /post/:title/
+paginate: 5
+paginate_path: '/blog/page/:num/'
+timezone: Europe/Berlin
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  -
+    scope:
+      path: ""
+      type: my_categories
+    values:
+      layout: blog_by_category
+  -
+    scope:
+      path: ""
+      type: my_tags
+    values:
+      layout: blog_by_tag
+  -
+    scope:
+      path: "project"
+    values:
+      layout: project
 
 sass:
   style: compressed
+
+# Custom
+domain: minddust.com
+url: http://www.minddust.com
+title: minddust.com
+description: Portfolio website of Stephan Groß
+copyright: 2013&mdash;2016
+name: minddust
+author: minddust
+twitter:
+  username: minddust
+github:
+  username: minddust
