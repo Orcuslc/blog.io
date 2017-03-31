@@ -66,11 +66,12 @@ sass:
 # domain: minddust.com
 url: https://orcuslc.github.io
 title: Chuan
-description: Portfolio website of Stephan Groß
-copyright: 2013&mdash;2016
-name: minddust
-author: minddust
+description: Computational Sciences
+copyright: 2017 Chuan Lu
+name: Chuan
+author: Chuan
 twitter:
-  username: minddust
+  username: orcuslc
 github:
-  username: minddust
+  username: orcuslc
+linkedin_url: https://www.linkedin.com/in/chuanlu
