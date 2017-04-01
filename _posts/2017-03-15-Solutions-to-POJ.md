@@ -26,3 +26,4 @@ The following are some summaries to each problem.
 		2'. for those in the up side, their count --; for the down side, count++. (To distinguish between the up and down cases)
 		3. The coin with the largest count(under abs) is the fake one.
 		4. Notes: when using {switch, case}, remember to add BREAK!;
+-  1014: DFS;
