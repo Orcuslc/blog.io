@@ -27,3 +27,4 @@ The following are some summaries to each problem.
 		3. The coin with the largest count(under abs) is the fake one.
 		4. Notes: when using {switch, case}, remember to add BREAK!;
 -  1014: DFS;
+-  1017: Trivial; Handle from large to small;
