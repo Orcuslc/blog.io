@@ -28,3 +28,4 @@ The following are some summaries to each problem.
 		4. Notes: when using {switch, case}, remember to add BREAK!;
 -  1014: DFS;
 -  1017: Trivial; Handle from large to small;
+-  1012: Simulation with mathematial optimization;
