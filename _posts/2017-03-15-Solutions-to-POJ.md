@@ -31,3 +31,4 @@ The following are some summaries to each problem.
 -  1012: Simulation with mathematial optimization;
 -  1028: Use stack(in fact use linked-table is ok.);
 -  1029: Simple Math problem; use long instead of int;
+-  1088: dynamic programming;
