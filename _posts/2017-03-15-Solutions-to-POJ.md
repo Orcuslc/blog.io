@@ -33,3 +33,4 @@ The following are some summaries to each problem.
 -  1029: Simple Math problem; use long instead of int;
 -  1088: dynamic programming;
 -  1016: Used stringstream;
+-  1032: Math problem; trivial;
