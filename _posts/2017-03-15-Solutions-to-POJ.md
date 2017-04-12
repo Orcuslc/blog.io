@@ -36,3 +36,4 @@ The following are some summaries to each problem.
 -  1001: DEBUGGING.....; PS: 0^0 = 1?????? WTF?????
 -  1035: 本来想用快排+二分搜索/HashTable的,但是题目要求按照输入字典顺序排序,只能顺序查找了...开始用G++编译结果TLE了,后来换成C++就AC了...
 -  1032: Math problem; trivial;
+-  1050: DP; 把二维数组踩扁为一维来处理;(踩扁也为一个DP过程)
