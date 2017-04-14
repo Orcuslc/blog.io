@@ -6,7 +6,7 @@ tag: [algorithm]
 
 ## Code for each problem: [GitHub](https://github.com/Orcuslc/Learning/tree/master/POJ)  
 
-## The following are some summaries to each problem.  
+## The followings are summaries to each problem.  
 
 -  1000: trivial  
 -  1001: Not submitted yet  
