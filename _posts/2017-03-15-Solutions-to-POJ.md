@@ -39,3 +39,4 @@ The following are some summaries to each problem.
 -  1046: Trivial Problem, 但是碰到Presentation Error了>..<检查后才发现输出时多了五个空格>.<
 -  1050: DP; 把二维数组踩扁为一维来处理;(踩扁也为一个DP过程)
 -  1080: DP;
+-  1029: Same as 1013 (slightly different)
