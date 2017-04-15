@@ -39,3 +39,4 @@ tag: [algorithm]
 -  1050: DP; 把二维数组踩扁为一维来处理;(踩扁也为一个DP过程)
 -  1080: DP;
 -  1029: Same as 1013 (slightly different)
+-  1061: Math Problem
