@@ -41,3 +41,4 @@ tag: [algorithm]
 -  1029: Same as 1013 (slightly different)
 -  1061: Math Problem
 -  1045: Math Problem
+-  1026: Permutation groups;
