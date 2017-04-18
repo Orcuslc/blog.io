@@ -42,3 +42,4 @@ tag: [algorithm]
 -  1061: Math Problem
 -  1045: Math Problem
 -  1026: Permutation groups;
+-  1068: Use Stacks to count;
