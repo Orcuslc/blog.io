@@ -43,3 +43,4 @@ tag: [algorithm]
 -  1045: Math Problem
 -  1026: Permutation groups;
 -  1068: Use Stacks to count;
+-  1065: Sort by length first, then count the max decreasing subsequence of weight;
