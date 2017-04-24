@@ -44,3 +44,6 @@ tag: [algorithm]
 -  1026: Permutation groups;
 -  1068: Use Stacks to count;
 -  1065: Sort by length first, then count the max decreasing subsequence of weight;
+
+-  1047: Math Problem; (used the string multiplication of 1001.cpp)
+-  1056: Trie Tree; 插入时判断是否有前缀或者为前缀.
