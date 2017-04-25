@@ -33,8 +33,12 @@ def likelihood(miu, alpha, beta, T, N, n):
 {%endhighlight%}
 
 And the processing time was decreased to 0.4s now, with such little changes; But it is still not an acceptable time since in each iteration, the `likelihood` function need to be called for 3,000 times.
-I wondered about the reason that the computations being so slow, since when choose `N = 100`, the processing time is just 0.008s, and I found that in the computation of `L1`, the complexity is \\(O(n^2)\\), because for each `i`, the intensity need to generate a sequence of length `i`.  
+I wondered about the reason that the computations being so slow, since when choose `N = 100`, the processing time is just 0.008s, and I found that in the computation of `L1`, the complexity is $O(n^2)$, because for each `i`, the intensity need to generate a sequence of length `i`.  
 So I finally get an iteration version of the likelihood:
+
+$$
+x_(t+1) = x_(t)*e^{-\beta} + \alpha*e^{-\beta}*N[t]
+$$
 
 {%highlight Python%}
 def likelihood(miu, alpha, beta, T, N, n):
