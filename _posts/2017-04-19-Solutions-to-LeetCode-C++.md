@@ -10,3 +10,4 @@ tag: [algorithm]
 - (2) Add two numbers: save the result in the long linked list; Beat 78.48% cpp submissions;
 - (413) Arithmetic Slices: Dynamic Programming; Beat 15.54% cpp submissions;
 - (445) Use stacks to simulate the reversing of linked lists; Beat 20.60% cpp submissions;(测试了vector的表现, Beat 17.08% cpp submissions).
+- (8) String to Integer: F**King test cases
