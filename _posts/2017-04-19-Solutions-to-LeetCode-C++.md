@@ -21,3 +21,6 @@ tag: [algorithm]
 
 
 - (8) String to Integer: F**King test cases
+
+- (11) Container with most water: Assume min(a[i], a[j]) = a[i], then min(a[i], a[k]) <= a[i], for each k;
+
