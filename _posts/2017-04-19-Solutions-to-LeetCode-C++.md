@@ -19,4 +19,20 @@ tag: [algorithm]
 - (3) Longest substring without repeating: DP with a hashmap saving the location info; Beat 79.09%;
 
 
-- (4) Median of two sorted arrays: 维护两个长度相等的部分, 每次搜索时把一个数从一个部分移至另一个部分, 再进行二分查找. 这两个部分满足: 左边部分的最大值小于等于右边部分的最小值
+- (4) Median of two sorted arrays: 维护两个长度相等的部分, 每次搜索时把一个数从一个部分移至另一个部分, 再进行二分查找. 这两个部分满足: 左边部分的最大值小于等于右边部分的最小值. Beat 79.80%;
+- (5) DP; 记录以第i个元素为中心的长度. 记得处理连续的重复值. Beat 77.37%;
+
+- (13. Roman to Integer): 从右向左处理. Beat 66.28%.
+- (12. Integer to Roman): 写出10进制的Roman Number即可. Beat 72.06%;
+
+- (476. Number Complement ): Bit operation; Beat 35.46%;
+- (412. Fizz Buzz ): Iteration; Beat 10.67%;
+- (496. Next Greater Element I ): 先对nums2找其每个元素的Next greater element, 方法为维护一个stack和一个unordered_map:
+	1. 顺序遍历nums2, 对每个数, 循环: 如果它比当前栈顶元素大, 则pop栈顶
+	2. unordered_map[栈顶] = 当前遍历元素.
+Beat 63.33%;
+- (463. Island Perimeter ): iteration; Beat 32.64%;
+- (485. Max Consecutive Ones ): dp; Beat 15.80%;
+- (136. Single Number ): XOR, a^b^a = b; Beat 36.16%;
+
+- (521. Longest Uncommon Subsequence I ): trivial; Beat 3.19%;
