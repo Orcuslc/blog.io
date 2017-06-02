@@ -57,3 +57,8 @@ Beat 63.33%;
 - (136. Single Number ): XOR, a^b^a = b; Beat 36.16%;
 
 - (521. Longest Uncommon Subsequence I ): trivial; Beat 3.19%;
+- (520. Detect Capital ): trivial; Beat 40.08%
+- (599. Minimum Index Sum of Two Lists ): 
+	1. add a punishing weight(negative) to each value, the weight should be <= sum of size of two lists. Then the single ones should have a larger sum then double ones;
+	2. use unordered_map and compare in the last. Beat 42.00%;
+
