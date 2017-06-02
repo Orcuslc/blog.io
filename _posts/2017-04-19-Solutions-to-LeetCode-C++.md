@@ -24,3 +24,20 @@ tag: [algorithm]
 
 - (11) Container with most water: Assume min(a[i], a[j]) = a[i], then min(a[i], a[k]) <= a[i], for each k;
 
+- (575) Distribute Candies: Min(num_type, length/2); Beat 64.70%;
+- (566) Reshape the Matrix: Trivial; Beat 17.84%;
+
+- (14. Longest Common Prefix): simple compare; Beat 39.19%;
+- (17. Letter Combinations of a Phone Number): Iterative; Beat 1.65%;
+- (21. Merge Two Sorted Lists): Beat 28.66%;
+- (24. Swap Nodes in Pairs ): use recursion instead of iterating; Beat 0.36%;
+- (46. Permutations ): Use recursion; Beat 84.39%;
+
+- (20. Valid Parentheses ): use stack; Beat 14.13%;
+- (22. Generate Parentheses ): recursion; Beat 13.97%;
+
+- (19. Remove Nth Node From End of List ): use two pointers to point to (the end of list) and (the n_th last node of the list); Beat 60.74%;
+- (27. Remove Element ): iteration; Beat 74.79%;
+- (26. Remove Duplicates from Sorted Array ): iteration; Beat 76.41%;
+
+- (344. Reverse String ): use `swap()`: Beat 19.37%; use `stringstream`: Beat 19.37%; use `reverse`: Beat 30.45%;
