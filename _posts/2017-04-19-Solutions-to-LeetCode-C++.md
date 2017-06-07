@@ -57,3 +57,14 @@ Beat 63.33%;
 - (136. Single Number ): XOR, a^b^a = b; Beat 36.16%;
 
 - (521. Longest Uncommon Subsequence I ): trivial; Beat 3.19%;
+
+- (598. Range Addition II ): return min(m)*min(n); Beat 28.57%;
+- (389. Find the Difference ): compare count; Beat 68.11%;
+- (167. Two Sum II - Input array is sorted ): trivial; Beat 28.78%;
+- (128. Longest Consecutive Sequence ):
+
+- (517. Super Washing Machines ): 假设可以进行操作: 对于每一个元素, 起所需要的操作次数为
+	1. 将其左边的项移至右边, 或将右边移至左边
+	2. 将它自身移至左右两边
+	以保持左右两边的平衡; Beat 25.00%;
+
