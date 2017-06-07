@@ -68,3 +68,8 @@ Beat 63.33%;
 	2. 将它自身移至左右两边
 	以保持左右两边的平衡; Beat 25.00%;
 
+- (520. Detect Capital ): trivial; Beat 40.08%
+- (599. Minimum Index Sum of Two Lists ): 
+	1. add a punishing weight(negative) to each value, the weight should be <= sum of size of two lists. Then the single ones should have a larger sum then double ones;
+	2. use unordered_map and compare in the last. Beat 42.00%;
+
