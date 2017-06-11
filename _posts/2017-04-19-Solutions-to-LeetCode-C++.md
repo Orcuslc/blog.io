@@ -16,7 +16,6 @@ tag: [algorithm]
 - (557) use `stringstream` class to handle i/o. (in fact it is okay to use stack/vector)
 - (500) Keyboard Row: use `unordered_set`, Beat 2.79%; use `map`, Beat 71.72%;
 - (3) Longest substring without repeating: DP with a hashmap saving the location info; Beat 79.09%;
-- (4) Median of two sorted arrays: 维护两个长度相等的部分, 每次搜索时把一个数从一个部分移至另一个部分, 再进行二分查找. 这两个部分满足: 左边部分的最大值小于等于右边部分的最小值
 
 - (4) Median of two sorted arrays: 维护两个长度相等的部分, 每次搜索时把一个数从一个部分移至另一个部分, 再进行二分查找. 这两个部分满足: 左边部分的最大值小于等于右边部分的最小值. Beat 79.80%;
 - (5) DP; 记录以第i个元素为中心的长度. 记得处理连续的重复值. Beat 77.37%;
@@ -72,4 +71,9 @@ Beat 63.33%;
 - (599. Minimum Index Sum of Two Lists ): 
 	1. add a punishing weight(negative) to each value, the weight should be <= sum of size of two lists. Then the single ones should have a larger sum then double ones;
 	2. use unordered_map and compare in the last. Beat 42.00%;
+
+- (442. Find All Duplicates in an Array ): Fantastic Solutions!!!
+	1. Sort, O(n) time and O(1) space; Beat 6.85%;
+	2. 遍历一遍列表, 对于每一个数i \in (1~n), 如果大于0则将列表中第i个数乘以-1. 遍历时检查, 如果第i个数为负数了, 则i为重复的数. Beat 96.01%;
+- (448. Find All Numbers Disappeared in an Array ): same as 442; Beat 77.90%;
 
