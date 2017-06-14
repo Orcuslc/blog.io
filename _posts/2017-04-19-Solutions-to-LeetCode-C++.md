@@ -77,3 +77,9 @@ Beat 63.33%;
 	2. 遍历一遍列表, 对于每一个数i \in (1~n), 如果大于0则将列表中第i个数乘以-1. 遍历时检查, 如果第i个数为负数了, 则i为重复的数. Beat 96.01%;
 - (448. Find All Numbers Disappeared in an Array ): same as 442; Beat 77.90%;
 
+- (42. Trapping Rain Water ): use a stack to remember left edges, compute each layer with the stack; Beat 63.24%;
+- (128. Longest Consecutive Sequence ): dynamic programming; unordered_map存储包含i的最大序列长度. 每次更新时:
+	1. 如果i已存在, 则略过
+	2. 否则, 更新mp[i]的数据为mp[i-1]+mp[i+1]+1, 更新dp为max(dp, mp[i]);
+	3. 更新连续序列端点mp[i-mp[i-1]], mp[i+mp[i+1]]的数据为mp. (中间的无需更新).
+	Beat 10.80%;
