@@ -83,3 +83,7 @@ Beat 63.33%;
 	2. 否则, 更新mp[i]的数据为mp[i-1]+mp[i+1]+1, 更新dp为max(dp, mp[i]);
 	3. 更新连续序列端点mp[i-mp[i-1]], mp[i+mp[i+1]]的数据为mp. (中间的无需更新).
 	Beat 10.80%;
+
+- (593. Valid Square ): Judge the four triangles are Right-Angle Isosceles triangles or not. Beat 24.46%.
+- (121. Best Time to Buy and Sell Stock ): trivial; Beat 16.33%.
+- (257. Binary Tree Paths ): DFS; Beat 29.00%.
