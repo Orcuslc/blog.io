@@ -83,3 +83,7 @@ Beat 63.33%;
 	2. 否则, 更新mp[i]的数据为mp[i-1]+mp[i+1]+1, 更新dp为max(dp, mp[i]);
 	3. 更新连续序列端点mp[i-mp[i-1]], mp[i+mp[i+1]]的数据为mp. (中间的无需更新).
 	Beat 10.80%;
+
+- (50. Pow(x, n) ): 
+	1. Recursive; notice the INT_MIN for n; Beat 93.31%
+	2. Iterative; Beat 29.63%;
