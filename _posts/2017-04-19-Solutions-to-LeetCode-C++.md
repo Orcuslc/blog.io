@@ -84,9 +84,13 @@ Beat 63.33%;
 	3. 更新连续序列端点mp[i-mp[i-1]], mp[i+mp[i+1]]的数据为mp. (中间的无需更新).
 	Beat 10.80%;
 
+- (50. Pow(x, n) ): 
+	1. Recursive; notice the INT_MIN for n; Beat 93.31%
+	2. Iterative; Beat 29.63%;
 - (593. Valid Square ): Judge the four triangles are Right-Angle Isosceles triangles or not. Beat 24.46%.
 - (121. Best Time to Buy and Sell Stock ): trivial; Beat 16.33%.
 - (257. Binary Tree Paths ): DFS; Beat 29.00%.
+
 - (563. Binary Tree Tilt ): recursive; Beat 46.37%;
 - (523. Continuous Subarray Sum ): DP with unordered_set; Beat 52.76%;
 
