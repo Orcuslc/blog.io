@@ -1,4 +1,4 @@
----
+﻿---
 title: Solutions to LeetCode with C++
 category: solutions
 tag: [algorithm]
@@ -87,3 +87,8 @@ Beat 63.33%;
 - (593. Valid Square ): Judge the four triangles are Right-Angle Isosceles triangles or not. Beat 24.46%.
 - (121. Best Time to Buy and Sell Stock ): trivial; Beat 16.33%.
 - (257. Binary Tree Paths ): DFS; Beat 29.00%.
+- (563. Binary Tree Tilt ): recursive; Beat 46.37%;
+- (523. Continuous Subarray Sum ): DP with unordered_set; Beat 52.76%;
+
+- (560. Subarray Sum Equals K ): DP, remember the prefix sum; check the number of prefix sums that equal to the result we need; Beat 85.11%;
+- (467. Unique Substrings in Wraparound String ): DP, remember the number of substrings starting with each letter; Beat 
