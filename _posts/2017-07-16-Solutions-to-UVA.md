@@ -18,3 +18,8 @@ tag: [algorithm]
 - 1585 Score:
 	- AC, RT: 0.000
 	- RE, TLE, WA, AC
+
+- 455 Periodic Strings:
+	- AC, RT: 0.000
+	- WA*4, PE*2, AC
+
