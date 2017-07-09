@@ -96,3 +96,26 @@ Beat 63.33%;
 
 - (560. Subarray Sum Equals K ): DP, remember the prefix sum; check the number of prefix sums that equal to the result we need; Beat 85.11%;
 - (467. Unique Substrings in Wraparound String ): DP, remember the number of substrings starting with each letter; Beat 
+
+- (357. Count Numbers with Unique Digits ): Math problem, check tables; Beat 35.50%;
+- (529. Minesweeper ): DFS, Beat 0.94%;
+- (515. Find Largest Value in Each Tree Row ): BFS with queue; Beat 26.16%;
+- (513. Find Bottom Left Tree Value ): BFS with queue; Beat 78.50%;
+
+- (576. Out of Boundary Paths ):
+	1. DFS, TLE
+	2. DP, the number of paths for N moves is the sum of N-1 moves starting from adjacent cells. Boundary conditions: the number of paths starting from cells outside the boundary is 1. Beat 45.67%;
+- (491. Increasing Subsequences ): Mid-order DFS with unordered_map to remember duplicate numbers; Beat 76.44%;
+- (494. Target Sum ): 
+	1. DFS, Beat 35.70%;
+	2. DP, 
+- (101. Symmetric Tree ):
+	1. Iterative: BFS with two queues; Beat 27.79%;
+	2. Recursive: Beat 1.63%;
+- (102. Binary Tree Level Order Traversal ): BFS with queue; Beat 68.75%;
+- (103. Binary Tree Zigzag Level Order Traversal ): BFS with two stacks to simulate the reversal; Beat 29.88%;
+- (107. Binary Tree Level Order Traversal II ): 
+	1. Same as 102; Beat 21.05%; 
+	2. DFS; Beat 76.29%;
+
+
