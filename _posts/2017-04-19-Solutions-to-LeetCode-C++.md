@@ -90,3 +90,24 @@ Beat 63.33%;
 - (593. Valid Square ): Judge the four triangles are Right-Angle Isosceles triangles or not. Beat 24.46%.
 - (121. Best Time to Buy and Sell Stock ): trivial; Beat 16.33%.
 - (257. Binary Tree Paths ): DFS; Beat 29.00%.
+
+- (43. Multiply Strings ): trivial; Beat 76.79%;
+- (66. Plus One ): trivial; Beat 18.72%;
+- (402. Remove K Digits ): Using stack; while(1): remove a latter digit if it is larger than its prodecessor. Beat
+- (112. Path Sum ): dfs; Beat 26.51%;
+- (111. Minimum Depth of Binary Tree ): dfs; Beat 74.54%;
+
+- (506. Relative Ranks ): sort; Beat 62.42%;
+- (9. Palindrome Number ): split a number by half and compare the two parts; notice: negative numbers are not palindrome numbers; Beat 9.97%;
+- (617. Merge Two Binary Trees ): recursion; Beat 26.00%;
+- (606. Construct String from Binary Tree ): recursion; Beat 58.22%;
+- (455. Assign Cookies ): greedy; Beat 37.61%;
+
+- (371. Sum of Two Integers ): bit operation; Beat 34.45%;
+- (492. Construct the Rectangle ): trivial; Beat 32.95%;
+
+- (198. House Robber ): DP; Beat 60.18%;
+- (70. Climbing Stairs ): using recursion, TLE; using the expression of Fibonacci numbers, Beat 36.28%; using DP, Beat 36.28%;
+- (53. Maximum Subarray ): DP; Beat 21.86%;
+- (62. Unique Paths ): DP; Beat 2.78%;
+
