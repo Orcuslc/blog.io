@@ -3,6 +3,7 @@ title: Solutions to LeetCode with C++
 category: solutions
 tag: [algorithm]
 ---
+
 ## Code for each problem: [GitHub](https://github.com/Orcuslc/Learning/tree/master/LeetCode)  
 
 - (1) Two sum: Quicksort+Binary Search, Beat 100% cpp submissions;
@@ -118,4 +119,11 @@ Beat 63.33%;
 	1. Same as 102; Beat 21.05%; 
 	2. DFS; Beat 76.29%;
 
+- (199. Binary Tree Right Side View ):
+	1. BFS, Beat 22.45%;
+	2. DFS in Mid-order, Beat 1.54%;
+- (200. Number of Islands ): DFS with marking; Beat 31.92%;
 
+- (310. Minimum Height Trees ): 循环删除叶子节点和与叶子节点相连接的边, 直至剩下两个节点; Beat 13.89%;
+
+- (130. Surrounded Regions): 先从四条边上的'O'出发, 把相连的'O'标记为'A'; 然后把所有的'O'标记为'X', 最后把'A'标记为'O'; Beat 29.04%;
