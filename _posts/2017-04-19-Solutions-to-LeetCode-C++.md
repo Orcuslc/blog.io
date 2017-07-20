@@ -1,4 +1,4 @@
-﻿---
+---
 title: Solutions to LeetCode with C++
 category: solutions
 tag: [algorithm]
@@ -143,8 +143,75 @@ Beat 63.33%;
 	1. BFS, Beat 22.45%;
 	2. DFS in Mid-order, Beat 1.54%;
 - (200. Number of Islands ): DFS with marking; Beat 31.92%;
-
 - (310. Minimum Height Trees ): 循环删除叶子节点和与叶子节点相连接的边, 直至剩下两个节点; Beat 13.89%;
 
 - (130. Surrounded Regions): 先从四条边上的'O'出发, 把相连的'O'标记为'A'; 然后把所有的'O'标记为'X', 最后把'A'标记为'O'; Beat 29.04%;
+- (207. Course Schedule ): Toposort by BFS; Beat 41.65%;
+- (210. Course Schedule II ): 
+	1. Toposort by BFS, Beat 20.22%;
+	2. Toposort by DFS, Beat 46.26%;
+- (98. Validate Binary Search Tree ): DFS; Beat 44.28%;
+
+- (547. Friend Circles ): 
+	1. DFS for finding connecting blocks; Beat 20.35%;
+	2. Unionset.. tbd
+- (108. Convert Sorted Array to Binary Search Tree ): recursion; Beat 32.44%;
+- (109. Convert Sorted List to Binary Search Tree ): recursion; Beat 50.33%;
+- (113. Path Sum II ): dfs; Beat 39.37%;
+
+- (337. House Robber III ): dfs(in fact, dp on a tree); beat 70.26%;
+- (473. Matchsticks to Square ): dfs; beat 59.15%;
+- (394. Decode String ): recursion; beat 1.58%;
+
+- (279. Perfect Squares ): 
+	1. Math problem using four square theorem and thre square theorem; Beat 94.72%;
+	2. DP (each m = a^2 + b; then s(m) = s(b) + 1); beat 87.21%;
+	3. BFS(consider as a graph and a shortest-road problem)
+- (637. Average of Levels in Binary Tree ):
+	1. BFS, beat 10.55%;
+	2. DFS, beat 34.52%;
+- (538. Convert BST to Greater Tree ):
+	in-order reversed DFS, and maintain a value to save the sums before; beat 75.10%;
+- (453. Minimum Moves to Equal Array Elements ):
+	- in fact, add n-1 elements by 1 is eqivlent to minus an element by 1; beat 23.45%;
+	- beat 89.18% after an improvement to decrease the iteration;
+- (349. Intersection of Two Arrays ): trivial with unordered_set; beat 42.15%;
+
+- (530. Minimum Absolute Difference in BST ): in-order traversal; beat 39.59%;
+- (383. Ransom Note ): trivial; beat 21.85%;
+- (404. Sum of Left Leaves ):
+	1. recursion with dfs; beat 10.12%;
+	2. iteration with bfs; beat 10.12%;
+- (169. Majority Element ):
+	1. Moore's voting theorem: beat 36.91%;
+	2. hashtables: beat 60.86%;
+	3. sorting and return mid; beat 21.44%;
+	4. randomized algorithm.... beat 92.51%;
+	5. divide-and-conquer; beat 48.95%;
+	6. Bit Manipulation....(tbd)
+- (122. Best Time to Buy and Sell Stock II ): total variation; beat 37.27%;
+- (387. First Unique Character in a String ): hashtables; beat 3.94%;
+- (409. Longest Palindrome ): trivial; beat 30.27%;
+- (206. Reverse Linked List ): iteration; beat 22.97%;
+- (628. Maximum Product of Three Numbers ): sorting; beat 52.71%;
+
+- (504. Base 7 ): trivial; beat 12.75%;
+- (367. Valid Perfect Square ): trivial; beat 10.08%;
+- (459. Repeated Substring Pattern ): trivial; beat 89.78%;
+- (118. Pascal's Triangle ): trivial; beat 4.67%;
+- (350. Intersection of Two Arrays II ): 
+	1. hashtables: beat 14.08%;
+	2. sort: beat 14.08;
+
+- (232. Implement Queue using Stacks ): using two stacks; beat 60.29%;
+- (119. Pascal's Triangle II ): math problem; aware of overflow; beat 61.96%;
+- (434. Number of Segments in a String ): 
+	1. using stringstream; beat 1.07%;
+	2. direct method; beat 1.07%;
+- (551. Student Attendance Record I ): trivial; beat 35.98%;
+- (343. Integer Break ): math problem; beat 37.58%;
+- (456. 132 Pattern ): maintain a stack S to save the candidates of `s2`. Iteration from the right side of the vector, for each element, pop all elements in S that are smaller then it. The last popped is the largest candidate of `s3`. If once an element is smaller then `s3`, then we find `s1`. math proof is trivial; beat 40.90%;
+- (31. Next Permutation ): start from the end of the vector, break if a[i-1] < a[i]; At this time `a[i]> a[i+1] >... > a[n]`, then swap a[i-1] with the smallest element in `a[i]> a[i+1] >... > a[n]` which is greater than `a[i-1]`. In order to get the minimum permutation, we sort the new `a[i]> a[i+1] >... > a[n]` in ascending order. beat 43.69%;
+- (332. Reconstruct Itinerary ): Euler Path using `unordered_map<string, multiset<string> >` and `unordered_map<string, unordered_map<string, int> >`; beat 12.27%;
+- (208. Implement Trie (Prefix Tree) ): trivial; beat 76.80%;
 
