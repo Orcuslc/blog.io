@@ -215,3 +215,15 @@ Beat 63.33%;
 - (332. Reconstruct Itinerary ): Euler Path using `unordered_map<string, multiset<string> >` and `unordered_map<string, unordered_map<string, int> >`; beat 12.27%;
 - (208. Implement Trie (Prefix Tree) ): trivial; beat 76.80%;
 
+- (537. Complex Number Multiplication ): trivial; beat 3.87%;
+- (419. Battleships in a Board ): count the beginning points; beat 2.01%;
+- (643. Maximum Average Subarray I ): trivial; beat 21.10%;
+- (605. Can Place Flowers ): extend the border; beat 78.93%;
+- (581. Shortest Unsorted Continuous Subarray ): trivial; beat 74.83%;
+- (532. K-diff Pairs in an Array ): use hashmap; beat 92.19%;
+- (414. Third Maximum Number ): use set; beat 22.79%;
+- (268. Missing Number ): sum the numbers; beat 92.08%;
+- (219. Contains Duplicate II ): using hashmap; beat 49.40%;
+- (189. Rotate Array ): trivial; beat 53.45%;
+- (88. Merge Sorted Array ): trivial; beat 12.24%;
+- (35. Search Insert Position ): bisearch(in fact, same as consecutive scanning); beat 10.80%;
