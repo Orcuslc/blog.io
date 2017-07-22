@@ -227,3 +227,6 @@ Beat 63.33%;
 - (189. Rotate Array ): trivial; beat 53.45%;
 - (88. Merge Sorted Array ): trivial; beat 12.24%;
 - (35. Search Insert Position ): bisearch(in fact, same as consecutive scanning); beat 10.80%;
+
+- (380. Insert Delete GetRandom O(1) ): use unordered_map to store position and vector to store each value; beat 96.59%;
+- (381. Insert Delete GetRandom O(1) - Duplicates allowed ): 一开始尝试用`vector<int> nums`和`unordered_map<int, vector<int> > pos`来容纳数据, 但是测试发现remove操作时会出错. 研究结果显示, 错误来源是remove某个值时没有对其他值的位置进行更新. 改为`vector<pair<int, int> > nums`, 其中`pair<int, int>.second`表示pos[i]中的index, 则与上一题完全类似. beat 93.91%;
