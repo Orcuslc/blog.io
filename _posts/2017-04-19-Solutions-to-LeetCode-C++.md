@@ -1,4 +1,4 @@
----
+﻿
 title: Solutions to LeetCode with C++
 category: solutions
 tag: [algorithm]
@@ -215,6 +215,16 @@ Beat 63.33%;
 - (332. Reconstruct Itinerary ): Euler Path using `unordered_map<string, multiset<string> >` and `unordered_map<string, unordered_map<string, int> >`; beat 12.27%;
 - (208. Implement Trie (Prefix Tree) ): trivial; beat 76.80%;
 
+- (35. Search Insert Position ): bisearch; beat 40.15%;
+- (1. Two Sum ): hashmap; beat 54.77%;
+- (621. Task Scheduler ): trivial; beat 33.31%;
+- (565. Array Nesting ): DFS; beat 99.21%;
+- (611. Valid Triangle Number ): trivial; beat 90.51%;
+- (495. Teemo Attacking ): trivial; beat 74.43%;
+- (238. Product of Array Except Self ): forward-backward algorithm; beat 66.17%;
+- (216. Combination Sum III ): backtracking; beat 51.16%;
+- (153. Find Minimum in Rotated Sorted Array ): bisearch; beat 1.90%;
+
 - (537. Complex Number Multiplication ): trivial; beat 3.87%;
 - (419. Battleships in a Board ): count the beginning points; beat 2.01%;
 - (643. Maximum Average Subarray I ): trivial; beat 21.10%;
@@ -232,3 +242,8 @@ Beat 63.33%;
 - (381. Insert Delete GetRandom O(1) - Duplicates allowed ): 一开始尝试用`vector<int> nums`和`unordered_map<int, vector<int> > pos`来容纳数据, 但是测试发现remove操作时会出错. 研究结果显示, 错误来源是remove某个值时没有对其他值的位置进行更新. 改为`vector<pair<int, int> > nums`, 其中`pair<int, int>.second`表示pos[i]中的index, 则与上一题完全类似. beat 93.91%;
 - (209. Minimum Size Subarray Sum ): maintain a window expending to the right, when the sum in the window is over then s, expend the left border to right. beat 65.47%;
 - (162. Find Peak Element ): WTF??? What a strange problem! beat 13.28%;
+- (152. Maximum Product Subarray ): dp; beat 11.88%;
+- (41. First Missing Positive ): 一开始尝试用加法去计算剩下的数, 但是因为此数会重复和跳跃导致无法成功. 根据discussion中的做法, swap i with nums[i], 第一个不在正确位置上的数+1即为missing positive. beat 13.52%;
+- (45. Jump Game II ): since one can always reach the end, we solve it with greedy; beat 44.61%;
+- (228. Summary Ranges ): trivial; beat 35.29%;
+- (120. Triangle ): dp; beat 29.39%;
