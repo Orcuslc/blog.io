@@ -1,8 +1,9 @@
-﻿---
+﻿
 title: Solutions to LeetCode with C++
 category: solutions
 tag: [algorithm]
 ---
+
 ## Code for each problem: [GitHub](https://github.com/Orcuslc/Learning/tree/master/LeetCode)  
 
 - (1) Two sum: Quicksort+Binary Search, Beat 100% cpp submissions;
@@ -138,6 +139,82 @@ Beat 63.33%;
 	1. Same as 102; Beat 21.05%; 
 	2. DFS; Beat 76.29%;
 
+- (199. Binary Tree Right Side View ):
+	1. BFS, Beat 22.45%;
+	2. DFS in Mid-order, Beat 1.54%;
+- (200. Number of Islands ): DFS with marking; Beat 31.92%;
+- (310. Minimum Height Trees ): 循环删除叶子节点和与叶子节点相连接的边, 直至剩下两个节点; Beat 13.89%;
+
+- (130. Surrounded Regions): 先从四条边上的'O'出发, 把相连的'O'标记为'A'; 然后把所有的'O'标记为'X', 最后把'A'标记为'O'; Beat 29.04%;
+- (207. Course Schedule ): Toposort by BFS; Beat 41.65%;
+- (210. Course Schedule II ): 
+	1. Toposort by BFS, Beat 20.22%;
+	2. Toposort by DFS, Beat 46.26%;
+- (98. Validate Binary Search Tree ): DFS; Beat 44.28%;
+
+- (547. Friend Circles ): 
+	1. DFS for finding connecting blocks; Beat 20.35%;
+	2. Unionset.. tbd
+- (108. Convert Sorted Array to Binary Search Tree ): recursion; Beat 32.44%;
+- (109. Convert Sorted List to Binary Search Tree ): recursion; Beat 50.33%;
+- (113. Path Sum II ): dfs; Beat 39.37%;
+
+- (337. House Robber III ): dfs(in fact, dp on a tree); beat 70.26%;
+- (473. Matchsticks to Square ): dfs; beat 59.15%;
+- (394. Decode String ): recursion; beat 1.58%;
+
+- (279. Perfect Squares ): 
+	1. Math problem using four square theorem and thre square theorem; Beat 94.72%;
+	2. DP (each m = a^2 + b; then s(m) = s(b) + 1); beat 87.21%;
+	3. BFS(consider as a graph and a shortest-road problem)
+- (637. Average of Levels in Binary Tree ):
+	1. BFS, beat 10.55%;
+	2. DFS, beat 34.52%;
+- (538. Convert BST to Greater Tree ):
+	in-order reversed DFS, and maintain a value to save the sums before; beat 75.10%;
+- (453. Minimum Moves to Equal Array Elements ):
+	- in fact, add n-1 elements by 1 is eqivlent to minus an element by 1; beat 23.45%;
+	- beat 89.18% after an improvement to decrease the iteration;
+- (349. Intersection of Two Arrays ): trivial with unordered_set; beat 42.15%;
+
+- (530. Minimum Absolute Difference in BST ): in-order traversal; beat 39.59%;
+- (383. Ransom Note ): trivial; beat 21.85%;
+- (404. Sum of Left Leaves ):
+	1. recursion with dfs; beat 10.12%;
+	2. iteration with bfs; beat 10.12%;
+- (169. Majority Element ):
+	1. Moore's voting theorem: beat 36.91%;
+	2. hashtables: beat 60.86%;
+	3. sorting and return mid; beat 21.44%;
+	4. randomized algorithm.... beat 92.51%;
+	5. divide-and-conquer; beat 48.95%;
+	6. Bit Manipulation....(tbd)
+- (122. Best Time to Buy and Sell Stock II ): total variation; beat 37.27%;
+- (387. First Unique Character in a String ): hashtables; beat 3.94%;
+- (409. Longest Palindrome ): trivial; beat 30.27%;
+- (206. Reverse Linked List ): iteration; beat 22.97%;
+- (628. Maximum Product of Three Numbers ): sorting; beat 52.71%;
+
+- (504. Base 7 ): trivial; beat 12.75%;
+- (367. Valid Perfect Square ): trivial; beat 10.08%;
+- (459. Repeated Substring Pattern ): trivial; beat 89.78%;
+- (118. Pascal's Triangle ): trivial; beat 4.67%;
+- (350. Intersection of Two Arrays II ): 
+	1. hashtables: beat 14.08%;
+	2. sort: beat 14.08;
+
+- (232. Implement Queue using Stacks ): using two stacks; beat 60.29%;
+- (119. Pascal's Triangle II ): math problem; aware of overflow; beat 61.96%;
+- (434. Number of Segments in a String ): 
+	1. using stringstream; beat 1.07%;
+	2. direct method; beat 1.07%;
+- (551. Student Attendance Record I ): trivial; beat 35.98%;
+- (343. Integer Break ): math problem; beat 37.58%;
+- (456. 132 Pattern ): maintain a stack S to save the candidates of `s2`. Iteration from the right side of the vector, for each element, pop all elements in S that are smaller then it. The last popped is the largest candidate of `s3`. If once an element is smaller then `s3`, then we find `s1`. math proof is trivial; beat 40.90%;
+- (31. Next Permutation ): start from the end of the vector, break if a[i-1] < a[i]; At this time `a[i]> a[i+1] >... > a[n]`, then swap a[i-1] with the smallest element in `a[i]> a[i+1] >... > a[n]` which is greater than `a[i-1]`. In order to get the minimum permutation, we sort the new `a[i]> a[i+1] >... > a[n]` in ascending order. beat 43.69%;
+- (332. Reconstruct Itinerary ): Euler Path using `unordered_map<string, multiset<string> >` and `unordered_map<string, unordered_map<string, int> >`; beat 12.27%;
+- (208. Implement Trie (Prefix Tree) ): trivial; beat 76.80%;
+
 - (35. Search Insert Position ): bisearch; beat 40.15%;
 - (1. Two Sum ): hashmap; beat 54.77%;
 - (621. Task Scheduler ): trivial; beat 33.31%;
@@ -147,3 +224,19 @@ Beat 63.33%;
 - (238. Product of Array Except Self ): forward-backward algorithm; beat 66.17%;
 - (216. Combination Sum III ): backtracking; beat 51.16%;
 - (153. Find Minimum in Rotated Sorted Array ): bisearch; beat 1.90%;
+
+- (537. Complex Number Multiplication ): trivial; beat 3.87%;
+- (419. Battleships in a Board ): count the beginning points; beat 2.01%;
+- (643. Maximum Average Subarray I ): trivial; beat 21.10%;
+- (605. Can Place Flowers ): extend the border; beat 78.93%;
+- (581. Shortest Unsorted Continuous Subarray ): trivial; beat 74.83%;
+- (532. K-diff Pairs in an Array ): use hashmap; beat 92.19%;
+- (414. Third Maximum Number ): use set; beat 22.79%;
+- (268. Missing Number ): sum the numbers; beat 92.08%;
+- (219. Contains Duplicate II ): using hashmap; beat 49.40%;
+- (189. Rotate Array ): trivial; beat 53.45%;
+- (88. Merge Sorted Array ): trivial; beat 12.24%;
+- (35. Search Insert Position ): bisearch(in fact, same as consecutive scanning); beat 10.80%;
+
+- (380. Insert Delete GetRandom O(1) ): use unordered_map to store position and vector to store each value; beat 96.59%;
+- (381. Insert Delete GetRandom O(1) - Duplicates allowed ): 一开始尝试用`vector<int> nums`和`unordered_map<int, vector<int> > pos`来容纳数据, 但是测试发现remove操作时会出错. 研究结果显示, 错误来源是remove某个值时没有对其他值的位置进行更新. 改为`vector<pair<int, int> > nums`, 其中`pair<int, int>.second`表示pos[i]中的index, 则与上一题完全类似. beat 93.91%;
