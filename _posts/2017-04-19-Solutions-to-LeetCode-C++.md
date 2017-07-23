@@ -230,3 +230,5 @@ Beat 63.33%;
 
 - (380. Insert Delete GetRandom O(1) ): use unordered_map to store position and vector to store each value; beat 96.59%;
 - (381. Insert Delete GetRandom O(1) - Duplicates allowed ): 一开始尝试用`vector<int> nums`和`unordered_map<int, vector<int> > pos`来容纳数据, 但是测试发现remove操作时会出错. 研究结果显示, 错误来源是remove某个值时没有对其他值的位置进行更新. 改为`vector<pair<int, int> > nums`, 其中`pair<int, int>.second`表示pos[i]中的index, 则与上一题完全类似. beat 93.91%;
+- (209. Minimum Size Subarray Sum ): maintain a window expending to the right, when the sum in the window is over then s, expend the left border to right. beat 65.47%;
+- (162. Find Peak Element ): WTF??? What a strange problem! beat 13.28%;
