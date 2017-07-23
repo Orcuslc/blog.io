@@ -240,3 +240,8 @@ Beat 63.33%;
 
 - (380. Insert Delete GetRandom O(1) ): use unordered_map to store position and vector to store each value; beat 96.59%;
 - (381. Insert Delete GetRandom O(1) - Duplicates allowed ): 一开始尝试用`vector<int> nums`和`unordered_map<int, vector<int> > pos`来容纳数据, 但是测试发现remove操作时会出错. 研究结果显示, 错误来源是remove某个值时没有对其他值的位置进行更新. 改为`vector<pair<int, int> > nums`, 其中`pair<int, int>.second`表示pos[i]中的index, 则与上一题完全类似. beat 93.91%;
+- (152. Maximum Product Subarray ): dp; beat 11.88%;
+- (41. First Missing Positive ): 一开始尝试用加法去计算剩下的数, 但是因为此数会重复和跳跃导致无法成功. 根据discussion中的做法, swap i with nums[i], 第一个不在正确位置上的数+1即为missing positive. beat 13.52%;
+- (45. Jump Game II ): since one can always reach the end, we solve it with greedy; beat 44.61%;
+- (228. Summary Ranges ): trivial; beat 35.29%;
+- (120. Triangle ): dp; beat 29.39%;
