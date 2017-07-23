@@ -137,3 +137,13 @@ Beat 63.33%;
 - (107. Binary Tree Level Order Traversal II ): 
 	1. Same as 102; Beat 21.05%; 
 	2. DFS; Beat 76.29%;
+
+- (35. Search Insert Position ): bisearch; beat 40.15%;
+- (1. Two Sum ): hashmap; beat 54.77%;
+- (621. Task Scheduler ): trivial; beat 33.31%;
+- (565. Array Nesting ): DFS; beat 99.21%;
+- (611. Valid Triangle Number ): trivial; beat 90.51%;
+- (495. Teemo Attacking ): trivial; beat 74.43%;
+- (238. Product of Array Except Self ): forward-backward algorithm; beat 66.17%;
+- (216. Combination Sum III ): backtracking; beat 51.16%;
+- (153. Find Minimum in Rotated Sorted Array ): bisearch; beat 1.90%;
