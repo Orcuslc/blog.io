@@ -247,3 +247,6 @@ Beat 63.33%;
 - (45. Jump Game II ): since one can always reach the end, we solve it with greedy; beat 44.61%;
 - (228. Summary Ranges ): trivial; beat 35.29%;
 - (120. Triangle ): dp; beat 29.39%;
+- (90. Subsets II ): backtracking; beat 78.93%;
+- (81. Search in Rotated Sorted Array II ): bisearch; beat 28.42%;
+
