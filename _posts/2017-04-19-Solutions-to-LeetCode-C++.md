@@ -250,3 +250,6 @@ Beat 63.33%;
 - (90. Subsets II ): backtracking; beat 78.93%;
 - (81. Search in Rotated Sorted Array II ): bisearch; beat 28.42%;
 
+- (57. Insert Interval ): trivial; beat 62.38%;
+- (648. Replace Words ): Trie Tree with modifying; runtime: 69ms;
+- (645. Set Mismatch ): hashmap; runtime: 69ms;
