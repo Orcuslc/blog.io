@@ -250,3 +250,6 @@ Beat 63.33%;
 - (90. Subsets II ): backtracking; beat 78.93%;
 - (81. Search in Rotated Sorted Array II ): bisearch; beat 28.42%;
 
+- (74. Search a 2D Matrix ): bisearch on both sides; O(log(m)log(n)) time; beat 31.08%;
+- (75. Sort Colors ): sounds like the `partition` function in quicksort. beat 20.67%;
+- (78. Subsets ): backtracking; beat 21.59%;
