@@ -253,3 +253,6 @@ Beat 63.33%;
 - (57. Insert Interval ): trivial; beat 62.38%;
 - (648. Replace Words ): Trie Tree with modifying; runtime: 69ms;
 - (645. Set Mismatch ): hashmap; runtime: 69ms;
+- (74. Search a 2D Matrix ): bisearch on both sides; O(log(m)log(n)) time; beat 31.08%;
+- (75. Sort Colors ): sounds like the `partition` function in quicksort. beat 20.67%;
+- (78. Subsets ): backtracking; beat 21.59%;
