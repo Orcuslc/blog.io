@@ -256,3 +256,11 @@ Beat 63.33%;
 - (74. Search a 2D Matrix ): bisearch on both sides; O(log(m)log(n)) time; beat 31.08%;
 - (75. Sort Colors ): sounds like the `partition` function in quicksort. beat 20.67%;
 - (78. Subsets ): backtracking; beat 21.59%;
+
+- (64. Minimum Path Sum ): dp; beat 22.02%;
+- (63. Unique Paths II ): dp; beat 18.31%;
+- (73. Set Matrix Zeroes ): use the first row to save zero status; beat 52.43%;
+- (59. Spiral Matrix II ): four steps; beat 31.86%;
+- (34. Search for a Range ): bisearch; beat 42.22%;
+- (39. Combination Sum ): backtracking; beat 20.42%;
+- (40. Combination Sum II ): backtracking; beat 50.38%;
