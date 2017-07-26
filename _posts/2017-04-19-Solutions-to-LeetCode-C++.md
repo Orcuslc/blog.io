@@ -264,3 +264,9 @@ Beat 63.33%;
 - (34. Search for a Range ): bisearch; beat 42.22%;
 - (39. Combination Sum ): backtracking; beat 20.42%;
 - (40. Combination Sum II ): backtracking; beat 50.38%;
+
+- (636. Exclusive Time of Functions ): using stack; beat 45.23%;
+- (572. Subtree of Another Tree ): recursion; beat 46.93%;
+- (543. Diameter of Binary Tree ): recursion(tree depth); beat 2.12%;
+- (437. Path Sum III ): dfs; beat 35.44%;
+- (623. Add One Row to Tree ): bfs; beat 10.35%;
