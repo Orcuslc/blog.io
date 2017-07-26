@@ -270,3 +270,7 @@ Beat 63.33%;
 - (543. Diameter of Binary Tree ): recursion(tree depth); beat 2.12%;
 - (437. Path Sum III ): dfs; beat 35.44%;
 - (623. Add One Row to Tree ): bfs; beat 10.35%;
+- (235. Lowest Common Ancestor of a Binary Search Tree ): recursion; beat 12.84%;
+- (508. Most Frequent Subtree Sum ): traversal; beat 85.73%;
+- (154. Find Minimum in Rotated Sorted Array II ): bisearch; beat 26.79%;
+- (79. Word Search ): backtracking; beat 74.33%;
