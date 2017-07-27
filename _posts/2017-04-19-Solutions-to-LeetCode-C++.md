@@ -281,3 +281,5 @@ Beat 63.33%;
 - (56. Merge Intervals ): trivial; beat 50.08%;
 - (55. Jump Game ): DP; beat 62.57%;
 - (54. Spiral Matrix ): trivial; beat 1.58%;
+- (48. Rotate Image ): reverse the image and then swap the symmetric elements; beat 51.39%;
+- (229. Majority Element II ): vote theorem; beat 43.71%;
