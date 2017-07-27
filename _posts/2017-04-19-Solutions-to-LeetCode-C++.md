@@ -274,3 +274,10 @@ Beat 63.33%;
 - (508. Most Frequent Subtree Sum ): traversal; beat 85.73%;
 - (154. Find Minimum in Rotated Sorted Array II ): bisearch; beat 26.79%;
 - (79. Word Search ): backtracking; beat 74.33%;
+
+- (16. 3Sum Closest ): search by both sides; beat 17.32%;
+- (33. Search in Rotated Sorted Array ): bisearch; beat 42.82%;
+- (80. Remove Duplicates from Sorted Array II ): trivial; beat 14.84%;
+- (56. Merge Intervals ): trivial; beat 50.08%;
+- (55. Jump Game ): DP; beat 62.57%;
+- (54. Spiral Matrix ): trivial; beat 1.58%;
