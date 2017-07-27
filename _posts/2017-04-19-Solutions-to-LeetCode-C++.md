@@ -283,3 +283,4 @@ Beat 63.33%;
 - (54. Spiral Matrix ): trivial; beat 1.58%;
 - (48. Rotate Image ): reverse the image and then swap the symmetric elements; beat 51.39%;
 - (229. Majority Element II ): vote theorem; beat 43.71%;
+- (131. Palindrome Partitioning ): backtracking; beat 69.75%;
