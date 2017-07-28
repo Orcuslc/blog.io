@@ -253,3 +253,5 @@ Beat 63.33%;
 - (74. Search a 2D Matrix ): bisearch on both sides; O(log(m)log(n)) time; beat 31.08%;
 - (75. Sort Colors ): sounds like the `partition` function in quicksort. beat 20.67%;
 - (78. Subsets ): backtracking; beat 21.59%;
+- (541. Reverse String II ): trivial; beat 17.92%;
+- (583. Delete Operation for Two Strings ): longest common substring; DP; beat 20.68%;
