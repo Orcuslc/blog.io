@@ -286,3 +286,11 @@ Beat 63.33%;
 - (48. Rotate Image ): reverse the image and then swap the symmetric elements; beat 51.39%;
 - (229. Majority Element II ): vote theorem; beat 43.71%;
 - (131. Palindrome Partitioning ): backtracking; beat 69.75%;
+
+- (260. Single Number III ): 
+	1. sort; beat 6.45%;
+	2. since only two elements appear once, and all others appear twice, if we XOR all the elements in the array, we get the value of `x^y`, in which `x, y` are the elements appearing once. Since the two elements are not the same, those positions where `x^y = 1` means `x` and `y` has a different bitset here. tbd...
+- (451. Sort Characters By Frequency ): unordered_map and a vector for saving frequency strings; beat 34.60%;
+- (462. Minimum Moves to Equal Array Elements II ): It is easy to proof that it reach a minimum move if we move all the values to the median of the array; beat 53.10%;
+- (347. Top K Frequent Elements ): Bucket Sort; beat 64.75%;
+- (384. Shuffle an Array ): trivial; beat 37.88%;
