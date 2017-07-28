@@ -250,8 +250,39 @@ Beat 63.33%;
 - (90. Subsets II ): backtracking; beat 78.93%;
 - (81. Search in Rotated Sorted Array II ): bisearch; beat 28.42%;
 
+- (57. Insert Interval ): trivial; beat 62.38%;
+- (648. Replace Words ): Trie Tree with modifying; runtime: 69ms;
+- (645. Set Mismatch ): hashmap; runtime: 69ms;
 - (74. Search a 2D Matrix ): bisearch on both sides; O(log(m)log(n)) time; beat 31.08%;
 - (75. Sort Colors ): sounds like the `partition` function in quicksort. beat 20.67%;
 - (78. Subsets ): backtracking; beat 21.59%;
 - (541. Reverse String II ): trivial; beat 17.92%;
 - (583. Delete Operation for Two Strings ): longest common substring; DP; beat 20.68%;
+
+- (64. Minimum Path Sum ): dp; beat 22.02%;
+- (63. Unique Paths II ): dp; beat 18.31%;
+- (73. Set Matrix Zeroes ): use the first row to save zero status; beat 52.43%;
+- (59. Spiral Matrix II ): four steps; beat 31.86%;
+- (34. Search for a Range ): bisearch; beat 42.22%;
+- (39. Combination Sum ): backtracking; beat 20.42%;
+- (40. Combination Sum II ): backtracking; beat 50.38%;
+
+- (636. Exclusive Time of Functions ): using stack; beat 45.23%;
+- (572. Subtree of Another Tree ): recursion; beat 46.93%;
+- (543. Diameter of Binary Tree ): recursion(tree depth); beat 2.12%;
+- (437. Path Sum III ): dfs; beat 35.44%;
+- (623. Add One Row to Tree ): bfs; beat 10.35%;
+- (235. Lowest Common Ancestor of a Binary Search Tree ): recursion; beat 12.84%;
+- (508. Most Frequent Subtree Sum ): traversal; beat 85.73%;
+- (154. Find Minimum in Rotated Sorted Array II ): bisearch; beat 26.79%;
+- (79. Word Search ): backtracking; beat 74.33%;
+
+- (16. 3Sum Closest ): search by both sides; beat 17.32%;
+- (33. Search in Rotated Sorted Array ): bisearch; beat 42.82%;
+- (80. Remove Duplicates from Sorted Array II ): trivial; beat 14.84%;
+- (56. Merge Intervals ): trivial; beat 50.08%;
+- (55. Jump Game ): DP; beat 62.57%;
+- (54. Spiral Matrix ): trivial; beat 1.58%;
+- (48. Rotate Image ): reverse the image and then swap the symmetric elements; beat 51.39%;
+- (229. Majority Element II ): vote theorem; beat 43.71%;
+- (131. Palindrome Partitioning ): backtracking; beat 69.75%;
