@@ -294,3 +294,7 @@ Beat 63.33%;
 - (462. Minimum Moves to Equal Array Elements II ): It is easy to proof that it reach a minimum move if we move all the values to the median of the array; beat 53.10%;
 - (347. Top K Frequent Elements ): Bucket Sort; beat 64.75%;
 - (384. Shuffle an Array ): trivial; beat 37.88%;
+- (382. Linked List Random Node ): Accept-Refuse sampling; beat 84.36%;
+- (94. Binary Tree Inorder Traversal ): using stack; beat 73.49%;
+- (498. Diagonal Traverse ): trivial; beat 55.88%;
+- (374. Guess Number Higher or Lower ): bisearch(avoiding overflow); beat 0.39%;
