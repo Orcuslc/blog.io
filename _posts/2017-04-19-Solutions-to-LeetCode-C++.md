@@ -298,3 +298,5 @@ Beat 63.33%;
 - (94. Binary Tree Inorder Traversal ): using stack; beat 73.49%;
 - (498. Diagonal Traverse ): trivial; beat 55.88%;
 - (374. Guess Number Higher or Lower ): bisearch(avoiding overflow); beat 0.39%;
+
+- (144. Binary Tree Preorder Traversal ): same as 94; beat 1.05%;
