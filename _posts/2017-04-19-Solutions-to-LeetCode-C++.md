@@ -300,3 +300,11 @@ Beat 63.33%;
 - (374. Guess Number Higher or Lower ): bisearch(avoiding overflow); beat 0.39%;
 
 - (144. Binary Tree Preorder Traversal ): same as 94; beat 1.05%;
+- (647. Palindromic Substrings ): dp; `dp[i][j] = (s[i] == s[j]) && (j - i <= 2 || dp[i+1][j-1])`; beat 66.16%;
+
+- (133. Clone Graph ): 
+	1. dfs; beat 49.19%;
+	2. bfs, tbd;
+
+- (125. Valid Palindrome ): trivial; beat 28.64%;
+- ()
