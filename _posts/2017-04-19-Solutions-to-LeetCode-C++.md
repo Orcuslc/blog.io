@@ -317,3 +317,8 @@ Beat 63.33%;
 - (609. Find Duplicate File in System ): using `unordered_map`; beat 70.25%;
 - (553. Optimal Division ): trivial; beat 5.17%;
 - (67. Add Binary ): trivial; beat 25.01%;
+- (58. Length of Last Word ): reverse; beat 37.07%;
+- (38. Count and Say ): trivial; beat 28.395;
+- (28. Implement strStr() ): KMP; tbd...
+- (556. Next Greater Element III ): change to a string problem; beat 1.09%;
+- (468. Validate IP Address ): f**king test cases!!!!!! beat 13.57%;
