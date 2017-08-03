@@ -322,3 +322,4 @@ Beat 63.33%;
 - (28. Implement strStr() ): KMP; tbd...
 - (556. Next Greater Element III ): change to a string problem; beat 1.09%;
 - (468. Validate IP Address ): f**king test cases!!!!!! beat 13.57%;
+- (49. Group Anagrams ): using prime factor decomposition as hash maps; beat 99.79%;
