@@ -313,3 +313,7 @@ Beat 63.33%;
 - (345. Reverse Vowels of a String ): using `find_first_of` and `find_last_of`; beat 43.62%;
 
 - (72. Edit Distance ): DP; beat 45.55%;
+- (539. Minimum Time Difference ): sorting; beat 41.99%;
+- (609. Find Duplicate File in System ): using `unordered_map`; beat 70.25%;
+- (553. Optimal Division ): trivial; beat 5.17%;
+- (67. Add Binary ): trivial; beat 25.01%;
