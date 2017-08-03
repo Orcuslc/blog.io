@@ -311,3 +311,5 @@ Beat 63.33%;
 - (165. Compare Version Numbers ): trivial; beat 51.16%;
 - (227. Basic Calculator II ): trivial, add '+' on both sides; beat 24.42%;
 - (345. Reverse Vowels of a String ): using `find_first_of` and `find_last_of`; beat 43.62%;
+
+- (72. Edit Distance ): DP; beat 45.55%;
