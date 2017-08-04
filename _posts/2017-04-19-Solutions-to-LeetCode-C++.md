@@ -256,6 +256,8 @@ Beat 63.33%;
 - (74. Search a 2D Matrix ): bisearch on both sides; O(log(m)log(n)) time; beat 31.08%;
 - (75. Sort Colors ): sounds like the `partition` function in quicksort. beat 20.67%;
 - (78. Subsets ): backtracking; beat 21.59%;
+- (541. Reverse String II ): trivial; beat 17.92%;
+- (583. Delete Operation for Two Strings ): longest common substring; DP; beat 20.68%;
 
 - (64. Minimum Path Sum ): dp; beat 22.02%;
 - (63. Unique Paths II ): dp; beat 18.31%;
@@ -287,3 +289,42 @@ Beat 63.33%;
 
 - (450. Delete Node in a BST ): recursion; beat 73.82%;
 - (173. Binary Search Tree Iterator ): using stack; beat 5.74%;
+
+- (260. Single Number III ): 
+	1. sort; beat 6.45%;
+	2. since only two elements appear once, and all others appear twice, if we XOR all the elements in the array, we get the value of `x^y`, in which `x, y` are the elements appearing once. Since the two elements are not the same, those positions where `x^y = 1` means `x` and `y` has a different bitset here. tbd...
+- (451. Sort Characters By Frequency ): unordered_map and a vector for saving frequency strings; beat 34.60%;
+- (462. Minimum Moves to Equal Array Elements II ): It is easy to proof that it reach a minimum move if we move all the values to the median of the array; beat 53.10%;
+- (347. Top K Frequent Elements ): Bucket Sort; beat 64.75%;
+- (384. Shuffle an Array ): trivial; beat 37.88%;
+- (382. Linked List Random Node ): Accept-Refuse sampling; beat 84.36%;
+- (94. Binary Tree Inorder Traversal ): using stack; beat 73.49%;
+- (498. Diagonal Traverse ): trivial; beat 55.88%;
+- (374. Guess Number Higher or Lower ): bisearch(avoiding overflow); beat 0.39%;
+
+- (144. Binary Tree Preorder Traversal ): same as 94; beat 1.05%;
+- (647. Palindromic Substrings ): dp; `dp[i][j] = (s[i] == s[j]) && (j - i <= 2 || dp[i+1][j-1])`; beat 66.16%;
+
+- (133. Clone Graph ): 
+	1. dfs; beat 49.19%;
+	2. bfs, tbd;
+
+- (125. Valid Palindrome ): trivial; beat 28.64%;
+- (151. Reverse Words in a String ): reverse the whole string, then reverse each word; beat 13.27%;
+- (165. Compare Version Numbers ): trivial; beat 51.16%;
+- (227. Basic Calculator II ): trivial, add '+' on both sides; beat 24.42%;
+- (345. Reverse Vowels of a String ): using `find_first_of` and `find_last_of`; beat 43.62%;
+
+- (72. Edit Distance ): DP; beat 45.55%;
+- (539. Minimum Time Difference ): sorting; beat 41.99%;
+- (609. Find Duplicate File in System ): using `unordered_map`; beat 70.25%;
+- (553. Optimal Division ): trivial; beat 5.17%;
+- (67. Add Binary ): trivial; beat 25.01%;
+- (58. Length of Last Word ): reverse; beat 37.07%;
+- (38. Count and Say ): trivial; beat 28.395;
+- (28. Implement strStr() ): KMP; tbd...
+- (556. Next Greater Element III ): change to a string problem; beat 1.09%;
+- (468. Validate IP Address ): f**king test cases!!!!!! beat 13.57%;
+- (49. Group Anagrams ): using prime factor decomposition as hash maps; beat 99.79%;
+- (15. 3Sum ): a quick method from both sides to the middle; beat 42.87%;
+- ()
