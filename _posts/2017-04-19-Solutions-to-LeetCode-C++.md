@@ -284,3 +284,6 @@ Beat 63.33%;
 - (48. Rotate Image ): reverse the image and then swap the symmetric elements; beat 51.39%;
 - (229. Majority Element II ): vote theorem; beat 43.71%;
 - (131. Palindrome Partitioning ): backtracking; beat 69.75%;
+
+- (450. Delete Node in a BST ): recursion; beat 73.82%;
+- (173. Binary Search Tree Iterator ): using stack; beat 5.74%;
