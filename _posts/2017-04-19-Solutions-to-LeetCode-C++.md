@@ -327,4 +327,6 @@ Beat 63.33%;
 - (468. Validate IP Address ): f**king test cases!!!!!! beat 13.57%;
 - (49. Group Anagrams ): using prime factor decomposition as hash maps; beat 99.79%;
 - (15. 3Sum ): a quick method from both sides to the middle; beat 42.87%;
-- ()
+
+- (18. 4Sum ): same as 3Sum; beat 24.74%;
+- (60. Permutation Sequence ): recursively construct the result; beat 55.93%;
