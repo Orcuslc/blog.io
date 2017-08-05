@@ -349,3 +349,4 @@ Beat 63.33%;
 - (205. Isomorphic Strings ): using two `unordered_map` to simulate a one-to-one function; beat 9.80%;
 - (172. Factorial Trailing Zeroes ): trivial, count the 5-factors; beat 13.09%;
 - (141. Linked List Cycle ): two pointers; beat 39.74%;
+- (96. Unique Binary Search Trees ): dp; 考虑由i为顶点的BST, 其数量为(1~i-1)构造的树的数量*(i+1~n)构造的树的数量. beat 26.93%;
