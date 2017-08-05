@@ -330,3 +330,12 @@ Beat 63.33%;
 
 - (18. 4Sum ): same as 3Sum; beat 24.74%;
 - (60. Permutation Sequence ): recursively construct the result; beat 55.93%;
+- (61. Rotate List ): two pointers; beat 40.44%;
+- (93. Restore IP Addresses ): DFS; beat 87.78%;
+- (231. Power of Two ): 
+	1. iterative: beat 31.25%;
+	2. recursive: beat 31.25%;
+	3. bit operation: beat 
+- (263. Ugly Number ): trivial; beat 4.00%;
+- (83. Remove Duplicates from Sorted List ): trivial; beat 10.84%;
+- (594. Longest Harmonious Subsequence ): hashmap; beat 49.59%;
