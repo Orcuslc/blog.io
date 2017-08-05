@@ -339,3 +339,13 @@ Beat 63.33%;
 - (263. Ugly Number ): trivial; beat 4.00%;
 - (83. Remove Duplicates from Sorted List ): trivial; beat 10.84%;
 - (594. Longest Harmonious Subsequence ): hashmap; beat 49.59%;
+- (202. Happy Number ): trivial; beat 12.04%;
+
+- (501. Find Mode in Binary Search Tree ): in-order traversal; beat 15.08%;
+- (482. License Key Formatting ): trivial; beat 31.53%;
+- (650. 2 Keys Keyboard ): DP;(wondering how to use static member values;) beat 31.15%;
+- (507. Perfect Number ): trivial(waring of TLE); beat 48.08%;
+- (438. Find All Anagrams in a String ): sliding window; beat 83.29%;
+- (205. Isomorphic Strings ): using two `unordered_map` to simulate a one-to-one function; beat 9.80%;
+- (172. Factorial Trailing Zeroes ): trivial, count the 5-factors; beat 13.09%;
+- (141. Linked List Cycle ): two pointers; beat 39.74%;
