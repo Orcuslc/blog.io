@@ -350,3 +350,10 @@ Beat 63.33%;
 - (172. Factorial Trailing Zeroes ): trivial, count the 5-factors; beat 13.09%;
 - (141. Linked List Cycle ): two pointers; beat 39.74%;
 - (96. Unique Binary Search Trees ): dp; 考虑由i为顶点的BST, 其数量为(1~i-1)构造的树的数量*(i+1~n)构造的树的数量. beat 26.93%;
+
+- (526. Beautiful Arrangement ): backtracking; beat 49.94%;
+- (211. Add and Search Word - Data structure design ): backtracking with Trie Tree; beat 45.73%;
+- (140. Word Break II ):
+	1. backtracking with Trie tree; TLE...
+	2. with check, still TLE.....
+	3. DFS with memorization (in fact it is just DP); beat 52.30%;
