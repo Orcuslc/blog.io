@@ -366,3 +366,4 @@ Beat 63.33%;
 
 - (436. Find Right Interval ): using `map.lower_bound`; beat 72.90%;
 - (334. Increasing Triplet Subsequence ): trivial; beat 22.67%;
+- (390. Elimination Game ): trivial; beat 9.21%;
