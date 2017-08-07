@@ -370,4 +370,11 @@ Beat 63.33%;
 - (334. Increasing Triplet Subsequence ): trivial; beat 22.67%;
 - (390. Elimination Game ): trivial; beat 9.21%;
 
-- (646. Maximum Length of Pair Chain ): greedy; beat 
+- (646. Maximum Length of Pair Chain ): greedy; beat 16.76%;
+- (540. Single Element in a Sorted Array ): bisearch; beat 23.73%;
+- (338. Counting Bits ): dp; beat 56.79%;
+- (398. Random Pick Index ): random sampling(for infinity stream); beat 52.82%;
+- (524. Longest Word in Dictionary through Deleting ): substrings; beat 69.12%;
+- (516. Longest Palindromic Subsequence ): dp; beat 90.84%;
+- (319. Bulb Switcher ): a bulb would be ioen if and only if it can be divided by odd number of factors, which means it is a complete-square number; beat 3.11%;
+- (240. Search a 2D Matrix II ): same as two-pointers; beat 64.79%;
