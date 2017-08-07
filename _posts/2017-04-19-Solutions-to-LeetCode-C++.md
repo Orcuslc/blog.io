@@ -363,3 +363,6 @@ Beat 63.33%;
 	1. backtracking with Trie tree; TLE...
 	2. with check, still TLE.....
 	3. DFS with memorization (in fact it is just DP); beat 52.30%;
+
+- (436. Find Right Interval ): using `map.lower_bound`; beat 72.90%;
+- (334. Increasing Triplet Subsequence ): trivial; beat 22.67%;
