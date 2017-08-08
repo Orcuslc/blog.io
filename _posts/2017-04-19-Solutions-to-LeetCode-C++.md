@@ -378,3 +378,5 @@ Beat 63.33%;
 - (516. Longest Palindromic Subsequence ): dp; beat 90.84%;
 - (319. Bulb Switcher ): a bulb would be ioen if and only if it can be divided by odd number of factors, which means it is a complete-square number; beat 3.11%;
 - (240. Search a 2D Matrix II ): same as two-pointers; beat 64.79%;
+
+- (424. Longest Repeating Character Replacement ): sliding window; beat 57.32%;
