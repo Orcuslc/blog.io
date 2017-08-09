@@ -380,3 +380,6 @@ Beat 63.33%;
 - (240. Search a 2D Matrix II ): same as two-pointers; beat 64.79%;
 
 - (424. Longest Repeating Character Replacement ): sliding window; beat 57.32%;
+- (525. Contiguous Array ): hashmap for presum; beat 2.92%;
+
+- (290. Word Pattern ): two hashmaps; beat 48.81%;
