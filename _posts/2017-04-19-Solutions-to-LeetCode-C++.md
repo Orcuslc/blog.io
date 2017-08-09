@@ -380,3 +380,5 @@ Beat 63.33%;
 - (240. Search a 2D Matrix II ): same as two-pointers; beat 64.79%;
 
 - (424. Longest Repeating Character Replacement ): sliding window; beat 57.32%;
+- (155. Min Stack ): in `push()`: if pushing a new val would change the Min, push the old Min; in `pop()`: if popping the `Min`, then Min should be the oldest min before `Min`; pop again to get that; beat 76.87%;
+- (303. Range Sum Query - Immutable ): using presum; beat 34.85%;
