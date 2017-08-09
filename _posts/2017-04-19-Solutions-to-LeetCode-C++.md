@@ -381,5 +381,7 @@ Beat 63.33%;
 
 - (424. Longest Repeating Character Replacement ): sliding window; beat 57.32%;
 - (525. Contiguous Array ): hashmap for presum; beat 2.92%;
+- (155. Min Stack ): in `push()`: if pushing a new val would change the Min, push the old Min; in `pop()`: if popping the `Min`, then Min should be the oldest min before `Min`; pop again to get that; beat 76.87%;
+- (303. Range Sum Query - Immutable ): using presum; beat 34.85%;
 
 - (290. Word Pattern ): two hashmaps; beat 48.81%;
