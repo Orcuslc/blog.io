@@ -385,3 +385,7 @@ Beat 63.33%;
 - (303. Range Sum Query - Immutable ): using presum; beat 34.85%;
 
 - (290. Word Pattern ): two hashmaps; beat 48.81%;
+- (397. Integer Replacement ): 
+	1. DP; Runtime Error when Input is `10000000`;
+	2. recursion; beat 16.89%;
+- ()
