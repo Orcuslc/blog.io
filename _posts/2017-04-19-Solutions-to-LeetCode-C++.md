@@ -388,4 +388,6 @@ Beat 63.33%;
 - (397. Integer Replacement ): 
 	1. DP; Runtime Error when Input is `10000000`;
 	2. recursion; beat 16.89%;
-- ()
+- (139. Word Break ):
+	1. DFS; TLE
+	2. DP; beat 72.93%;
