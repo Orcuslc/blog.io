@@ -391,3 +391,8 @@ Beat 63.33%;
 - (139. Word Break ):
 	1. DFS; TLE
 	2. DP; beat 72.93%;
+- (82. Remove Duplicates from Sorted List II ):
+	1. recursive: beat 6.05%;
+	2. iterative: beat 
+
+- (486. Predict the Winner ): DP(notice that the max solution of a subgame[i, j] is the element on one side plus the min solution of the rest subgame); beat 31.92%;
