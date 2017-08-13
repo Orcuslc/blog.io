@@ -398,3 +398,7 @@ Beat 63.33%;
 - (486. Predict the Winner ): DP(notice that the max solution of a subgame[i, j] is the element on one side plus the min solution of the rest subgame); beat 31.92%;
 
 - (376. Wiggle Subsequence ): DP(two cases); beat 
+- (322. Coin Change ):
+	1. DP( Why Init with memset will lead to a fault of visiting wrong RAM address?); beat 54.00%;
+	2. memorized DFS; TBD
+- (309. Best Time to Buy and Sell Stock with Cooldown ): DP(three status); beat 35.60%;
