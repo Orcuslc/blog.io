@@ -396,3 +396,5 @@ Beat 63.33%;
 	2. iterative: beat 
 
 - (486. Predict the Winner ): DP(notice that the max solution of a subgame[i, j] is the element on one side plus the min solution of the rest subgame); beat 31.92%;
+
+- (376. Wiggle Subsequence ): DP(two cases); beat 
