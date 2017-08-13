@@ -402,3 +402,8 @@ Beat 63.33%;
 	1. DP( Why Init with memset will lead to a fault of visiting wrong RAM address?); beat 54.00%;
 	2. memorized DFS; TBD
 - (309. Best Time to Buy and Sell Stock with Cooldown ): DP(three status); beat 35.60%;
+
+- (304. Range Sum Query 2D - Immutable ): similar to presum; beat 88.65%;
+- (264. Ugly Number II ): dp(three cases); beat 41.01%;
+- (221. Maximal Square ): dp(dp[i][j] represents max length of square with its right-down vertex on [i][j]); beat 18.88%;
+- (213. House Robber II ): dp(four cases); beat 56.92%;
