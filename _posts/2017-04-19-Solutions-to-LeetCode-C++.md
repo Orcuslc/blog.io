@@ -385,3 +385,12 @@ Beat 63.33%;
 - (303. Range Sum Query - Immutable ): using presum; beat 34.85%;
 
 - (290. Word Pattern ): two hashmaps; beat 48.81%;
+- (225. Implement Stack using Queues ): trivial using one queue; beat 0.86%;
+- (203. Remove Linked List Elements ): trivial; beat 35.03%;
+- (368. Largest Divisible Subset ): memorized DP(with backtracking for result); beat 83.19%;
+
+- (416. Partition Equal Subset Sum ):
+	1. dfs; TLE..
+	2. DP; beat 72.72%;
+- (474. Ones and Zeroes ): DP; (NOTICE: initializing of arrays in C++ !!!) beat 59.62%;
+- (300. Longest Increasing Subsequence ): dp; beat 29.19%;
