@@ -421,3 +421,13 @@ Beat 63.33%;
 	1. DP(dp[i][j] represents max height of rectangles between i and j), O(n^2) time; Runtime Error;
 	2. using a stack to memorize heights and compute the largest area of height x; beat 81.43%;
 - (123. Best Time to Buy and Sell Stock III ): dp; beat 39.92%;
+
+- (168. Excel Sheet Column Title ):
+	1. recursive: beat 0.41%;
+	2. iterative: beat 22.73%;
+- (278. First Bad Version ): bisearch; beat 28.15%;
+- (654. Maximum Binary Tree ): according to discussion(using a stack to build the tree in linear time); beat 64.97%;
+- (454. 4Sum II ): using a map; beat 48.05%;
+- (36. Valid Sudoku ): trivial; beat 36.70%;
+- (447. Number of Boomerangs ): use hashmap; beat 94.85%;
+- (187. Repeated DNA Sequences ): use hashmap; beat 92.60%;
