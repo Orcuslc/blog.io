@@ -394,3 +394,30 @@ Beat 63.33%;
 	2. DP; beat 72.72%;
 - (474. Ones and Zeroes ): DP; (NOTICE: initializing of arrays in C++ !!!) beat 59.62%;
 - (300. Longest Increasing Subsequence ): dp; beat 29.19%;
+- (397. Integer Replacement ): 
+	1. DP; Runtime Error when Input is `10000000`;
+	2. recursion; beat 16.89%;
+- (139. Word Break ):
+	1. DFS; TLE
+	2. DP; beat 72.93%;
+- (82. Remove Duplicates from Sorted List II ):
+	1. recursive: beat 6.05%;
+	2. iterative: beat 
+
+- (486. Predict the Winner ): DP(notice that the max solution of a subgame[i, j] is the element on one side plus the min solution of the rest subgame); beat 31.92%;
+
+- (376. Wiggle Subsequence ): DP(two cases); beat 
+- (322. Coin Change ):
+	1. DP( Why Init with memset will lead to a fault of visiting wrong RAM address?); beat 54.00%;
+	2. memorized DFS; TBD
+- (309. Best Time to Buy and Sell Stock with Cooldown ): DP(three status); beat 35.60%;
+
+- (304. Range Sum Query 2D - Immutable ): similar to presum; beat 88.65%;
+- (264. Ugly Number II ): dp(three cases); beat 41.01%;
+- (221. Maximal Square ): dp(dp[i][j] represents max length of square with its right-down vertex on [i][j]); beat 18.88%;
+- (213. House Robber II ): dp(four cases); beat 56.92%;
+- (289. Game of Life ): use two bits to represent status of (future, now); beat 87.27%;
+- (84. Largest Rectangle in Histogram ):
+	1. DP(dp[i][j] represents max height of rectangles between i and j), O(n^2) time; Runtime Error;
+	2. using a stack to memorize heights and compute the largest area of height x; beat 81.43%;
+- (123. Best Time to Buy and Sell Stock III ): dp; beat 39.92%;
