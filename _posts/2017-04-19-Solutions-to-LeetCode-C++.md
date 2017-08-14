@@ -407,3 +407,8 @@ Beat 63.33%;
 - (264. Ugly Number II ): dp(three cases); beat 41.01%;
 - (221. Maximal Square ): dp(dp[i][j] represents max length of square with its right-down vertex on [i][j]); beat 18.88%;
 - (213. House Robber II ): dp(four cases); beat 56.92%;
+- (289. Game of Life ): use two bits to represent status of (future, now); beat 87.27%;
+- (84. Largest Rectangle in Histogram ):
+	1. DP(dp[i][j] represents max height of rectangles between i and j), O(n^2) time; Runtime Error;
+	2. using a stack to memorize heights and compute the largest area of height x; beat 81.43%;
+- (123. Best Time to Buy and Sell Stock III ): dp; beat 39.92%;
