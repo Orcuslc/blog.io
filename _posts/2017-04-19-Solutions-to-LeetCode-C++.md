@@ -431,3 +431,10 @@ Beat 63.33%;
 - (36. Valid Sudoku ): trivial; beat 36.70%;
 - (447. Number of Boomerangs ): use hashmap; beat 94.85%;
 - (187. Repeated DNA Sequences ): use hashmap; beat 92.60%;
+
+- (166. Fraction to Recurring Decimal ): use hashmap to memorize the start position of loops; beat 3.49%;
+- (138. Copy List with Random Pointer ): use two hashmaps to implement this function: (Node->label --> Node->label --> Node in the copy); beat 24.18%;
+- (204. Count Primes ): Sieve...; beat 67.40%;
+- (274. H-Index ): bucket sort; beat 18.97%;
+- (554. Brick Wall ): hashmaps; beat 51.52%;
+- (76. Minimum Window Substring ): sliding window; (why i < s.size() will cause fault when i < (int)s.size() is correct?????) beat 64.79%;
