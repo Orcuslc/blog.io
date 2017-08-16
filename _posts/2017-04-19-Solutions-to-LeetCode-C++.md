@@ -438,3 +438,8 @@ Beat 63.33%;
 - (274. H-Index ): bucket sort; beat 18.97%;
 - (554. Brick Wall ): hashmaps; beat 51.52%;
 - (76. Minimum Window Substring ): sliding window; (why i < s.size() will cause fault when i < (int)s.size() is correct?????) beat 64.79%;
+- (324. Wiggle Sort II ): (how to do this in-place?) beat 16.77%;
+- (179. Largest Number ): sort; beat 39.90%;
+
+- (147. Insertion Sort List ): add a null node as beginning; beat 83.70;
+- ()
