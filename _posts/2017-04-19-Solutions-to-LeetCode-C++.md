@@ -1,4 +1,4 @@
-﻿
+﻿---
 title: Solutions to LeetCode with C++
 category: solutions
 tag: [algorithm]
@@ -441,5 +441,6 @@ Beat 63.33%;
 - (324. Wiggle Sort II ): (how to do this in-place?) beat 16.77%;
 - (179. Largest Number ): sort; beat 39.90%;
 
-- (147. Insertion Sort List ): add a null node as beginning; beat 83.70;
+- (147. Insertion Sort List ): add a null node as beginning; beat 83.70%;
+- (148. Sort List ): merge sort; beat 48.69%;
 - ()
