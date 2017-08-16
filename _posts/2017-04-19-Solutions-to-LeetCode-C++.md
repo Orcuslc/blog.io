@@ -443,4 +443,4 @@ Beat 63.33%;
 
 - (147. Insertion Sort List ): add a null node as beginning; beat 83.70%;
 - (148. Sort List ): merge sort; beat 48.69%;
-- ()
+- (633. Sum of Square Numbers ): two pointers; beat 77.60%;
