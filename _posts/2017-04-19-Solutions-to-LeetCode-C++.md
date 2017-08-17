@@ -448,3 +448,14 @@ Beat 63.33%;
 - (633. Sum of Square Numbers ): two pointers; beat 77.60%;
 
 - (160. Intersection of Two Linked Lists ): look at annotation; beat 78.22%;
+- (143. Reorder List ):
+	1. reverse each sublist(1~n, 2~n, ...), TLE... O(n^2) algorithm...
+	2. reverse the last half, then merge; beat 23.10%;
+- (86. Partition List ): beat 22.85%;
+- (326. Power of Three ):
+	1. using max power of 3 (in range of int) to divide n; if can be divided, then ok; beat 22.01%;
+	2. 
+- (400. Nth Digit ): trivial; beat 8.20%;
+- (423. Reconstruct Original Digits from English ): really interesting; beat 35.31%;
+- (396. Rotate Function ): trivial; beat 42.25%;
+- (372. Super Pow ): Euler's theorem + quick pow; beat 94.87%;
