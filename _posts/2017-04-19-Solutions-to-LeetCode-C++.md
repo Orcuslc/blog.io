@@ -443,4 +443,5 @@ Beat 63.33%;
 
 - (147. Insertion Sort List ): add a null node as beginning; beat 83.70%;
 - (148. Sort List ): merge sort; beat 48.69%;
-- ()
+- (328. Odd Even Linked List ): two pointers; beat 38.58%;
+- (142. Linked List Cycle II ): two pointers; Assume dist(head, entry) = l1, dist(circle) = c, dist(entry, slow) = l2(when slow and fast meet), then l1+l2+n*c = 2(l1+l2), which means l1 == (c-l2) (mod c); then let head and slow going through, until they meet. beat 40.87%;
