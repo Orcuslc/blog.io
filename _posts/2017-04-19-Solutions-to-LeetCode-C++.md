@@ -448,3 +448,5 @@ Beat 63.33%;
 - (633. Sum of Square Numbers ): two pointers; beat 77.60%;
 
 - (160. Intersection of Two Linked Lists ): look at annotation; beat 78.22%;
+
+- (657. Judge Route Circle ): trivial; beat 40.89%;
