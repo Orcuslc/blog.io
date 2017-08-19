@@ -463,3 +463,10 @@ Beat 63.33%;
 - (313. Super Ugly Number ): pointers; beat 81.98%;
 
 - (657. Judge Route Circle ): trivial; beat 40.89%;
+
+- (299. Bulls and Cows ): hashmap; beat 70.02%;
+- (503. Next Greater Element II ): DP; beat 46.10%;
+- (385. Mini Parser ): using stack; beat 45.21%;
+- (331. Verify Preorder Serialization of a Binary Tree ): using stack; beat 69.25%;
+- (150. Evaluate Reverse Polish Notation ): using stack; beat 23.51%;
+- (71. Simplify Path ): using `getline()` to simplify code; beat 31.82%;
