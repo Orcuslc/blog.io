@@ -461,3 +461,5 @@ Beat 63.33%;
 - (372. Super Pow ): Euler's theorem + quick pow; beat 94.87%;
 - (365. Water and Jug Problem ): look at notes; beat 39.76%;
 - (313. Super Ugly Number ): pointers; beat 81.98%;
+
+- (657. Judge Route Circle ): trivial; beat 40.89%;
