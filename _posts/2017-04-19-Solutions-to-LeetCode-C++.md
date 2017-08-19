@@ -470,3 +470,5 @@ Beat 63.33%;
 - (331. Verify Preorder Serialization of a Binary Tree ): using stack; beat 69.25%;
 - (150. Evaluate Reverse Polish Notation ): using stack; beat 23.51%;
 - (71. Simplify Path ): using `getline()` to simplify code; beat 31.82%;
+- (567. Permutation in String ): sliding window; beat 55.54%;
+- ()
