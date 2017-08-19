@@ -459,3 +459,5 @@ Beat 63.33%;
 - (423. Reconstruct Original Digits from English ): really interesting; beat 35.31%;
 - (396. Rotate Function ): trivial; beat 42.25%;
 - (372. Super Pow ): Euler's theorem + quick pow; beat 94.87%;
+- (365. Water and Jug Problem ): look at notes; beat 39.76%;
+- (313. Super Ugly Number ): pointers; beat 81.98%;
