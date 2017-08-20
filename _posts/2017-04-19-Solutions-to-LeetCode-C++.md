@@ -471,4 +471,5 @@ Beat 63.33%;
 - (150. Evaluate Reverse Polish Notation ): using stack; beat 23.51%;
 - (71. Simplify Path ): using `getline()` to simplify code; beat 31.82%;
 - (567. Permutation in String ): sliding window; beat 55.54%;
-- ()
+- (592. Fraction Addition and Subtraction ): using streamstring too simplify; beat 20.00%;
+- (452. Minimum Number of Arrows to Burst Balloons ): greedy; beat 34.06%;
