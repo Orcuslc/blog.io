@@ -477,4 +477,5 @@ Beat 63.33%;
 - (392. Is Subsequence ): two-pointers; beat 19.96%;
 - (399. Evaluate Division ): dfs with memorization; beat 76.52%;
 - (129. Sum Root to Leaf Numbers ): dfs; beat 1.66%;
-- ()
+
+- (475. Heaters ): two-pointers; beat 5.58%;
