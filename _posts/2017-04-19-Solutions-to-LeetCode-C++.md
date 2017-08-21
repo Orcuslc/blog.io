@@ -473,3 +473,8 @@ Beat 63.33%;
 - (567. Permutation in String ): sliding window; beat 55.54%;
 - (592. Fraction Addition and Subtraction ): using streamstring too simplify; beat 20.00%;
 - (452. Minimum Number of Arrows to Burst Balloons ): greedy; beat 34.06%;
+
+- (392. Is Subsequence ): two-pointers; beat 19.96%;
+- (399. Evaluate Division ): dfs with memorization; beat 76.52%;
+- (129. Sum Root to Leaf Numbers ): dfs; beat 1.66%;
+- ()
