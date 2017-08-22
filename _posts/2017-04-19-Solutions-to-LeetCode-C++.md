@@ -477,4 +477,9 @@ Beat 63.33%;
 - (392. Is Subsequence ): two-pointers; beat 19.96%;
 - (399. Evaluate Division ): dfs with memorization; beat 76.52%;
 - (129. Sum Root to Leaf Numbers ): dfs; beat 1.66%;
-- ()
+
+- (660. Remove 9 ): just change a decimal number to its base-9 representation; beat 
+- (273. Integer to English Words ): trivial; beat 3.47%;
+- (312. Burst Balloons ): dp; beat 87.78%;
+- (664. Strange Printer ): dp; beat 40.00%;
+- (354. Russian Doll Envelopes ): dp; beat 52.03%;
