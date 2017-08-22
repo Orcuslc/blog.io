@@ -478,6 +478,8 @@ Beat 63.33%;
 - (399. Evaluate Division ): dfs with memorization; beat 76.52%;
 - (129. Sum Root to Leaf Numbers ): dfs; beat 1.66%;
 
+- (475. Heaters ): two-pointers; beat 5.58%;
+- (405. Convert a Number to Hexadecimal ): trivial; beat 5.10%;
 - (660. Remove 9 ): just change a decimal number to its base-9 representation; beat 
 - (273. Integer to English Words ): trivial; beat 3.47%;
 - (312. Burst Balloons ): dp; beat 87.78%;
