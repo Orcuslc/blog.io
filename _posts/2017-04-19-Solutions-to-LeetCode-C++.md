@@ -479,3 +479,5 @@ Beat 63.33%;
 - (129. Sum Root to Leaf Numbers ): dfs; beat 1.66%;
 
 - (475. Heaters ): two-pointers; beat 5.58%;
+- (405. Convert a Number to Hexadecimal ): trivial; beat 5.10%;
+- ()
