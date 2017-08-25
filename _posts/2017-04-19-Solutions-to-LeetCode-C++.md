@@ -485,3 +485,5 @@ Beat 63.33%;
 - (312. Burst Balloons ): dp; beat 87.78%;
 - (664. Strange Printer ): dp; beat 40.00%;
 - (354. Russian Doll Envelopes ): dp; beat 52.03%;
+
+- (552. Student Attendance Record II ): dp(why does `long a[n+1] = {0}` will case runtime error??); beat 75.20%;
