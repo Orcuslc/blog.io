@@ -487,3 +487,8 @@ Beat 63.33%;
 - (354. Russian Doll Envelopes ): dp; beat 52.03%;
 
 - (552. Student Attendance Record II ): dp(why does `long a[n+1] = {0}` will case runtime error??); beat 75.20%;
+
+- (514. Freedom Trail ): dp; beat 21.31%
+
+- (28. Implement strStr() ): brute-force; beat 91.22%;
+- ()
