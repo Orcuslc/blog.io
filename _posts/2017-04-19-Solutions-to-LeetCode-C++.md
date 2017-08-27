@@ -491,4 +491,11 @@ Beat 63.33%;
 - (514. Freedom Trail ): dp; beat 21.31%
 
 - (28. Implement strStr() ): brute-force; beat 91.22%;
+- (306. Additive Number ): trivial; beat 45.82%;
+- (222. Count Complete Tree Nodes ):
+	1. BFS; TLE...
+	2. DFS; TLE...
+	3. O((log n)^2), beat 96.48%;
+- (190. Reverse Bits ): bit mask; beat 34.44%;
+- (236. Lowest Common Ancestor of a Binary Tree ): recursion; beat 60.55%;
 - ()
