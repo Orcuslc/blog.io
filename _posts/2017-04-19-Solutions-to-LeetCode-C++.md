@@ -483,3 +483,22 @@ Beat 63.33%;
 
 - (649. Dota2 Senate ): greedy; beat 39.04%;
 - ()
+- (660. Remove 9 ): just change a decimal number to its base-9 representation; beat 
+- (273. Integer to English Words ): trivial; beat 3.47%;
+- (312. Burst Balloons ): dp; beat 87.78%;
+- (664. Strange Printer ): dp; beat 40.00%;
+- (354. Russian Doll Envelopes ): dp; beat 52.03%;
+
+- (552. Student Attendance Record II ): dp(why does `long a[n+1] = {0}` will case runtime error??); beat 75.20%;
+
+- (514. Freedom Trail ): dp; beat 21.31%
+
+- (28. Implement strStr() ): brute-force; beat 91.22%;
+- (306. Additive Number ): trivial; beat 45.82%;
+- (222. Count Complete Tree Nodes ):
+	1. BFS; TLE...
+	2. DFS; TLE...
+	3. O((log n)^2), beat 96.48%;
+- (190. Reverse Bits ): bit mask; beat 34.44%;
+- (236. Lowest Common Ancestor of a Binary Tree ): recursion; beat 60.55%;
+- (134. Gas Station ): see comments in the code; beat 26.88%;
