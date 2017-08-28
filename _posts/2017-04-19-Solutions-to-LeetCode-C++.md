@@ -480,4 +480,6 @@ Beat 63.33%;
 
 - (475. Heaters ): two-pointers; beat 5.58%;
 - (405. Convert a Number to Hexadecimal ): trivial; beat 5.10%;
+
+- (649. Dota2 Senate ): greedy; beat 39.04%;
 - ()
