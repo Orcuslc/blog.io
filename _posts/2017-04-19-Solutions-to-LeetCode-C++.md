@@ -502,3 +502,5 @@ Beat 63.33%;
 - (190. Reverse Bits ): bit mask; beat 34.44%;
 - (236. Lowest Common Ancestor of a Binary Tree ): recursion; beat 60.55%;
 - (134. Gas Station ): see comments in the code; beat 26.88%;
+
+- (275. H-Index II ): bisearch; beat 65.01%;
