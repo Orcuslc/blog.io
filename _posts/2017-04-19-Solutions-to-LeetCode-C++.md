@@ -507,3 +507,5 @@ Beat 63.33%;
 - (239. Sliding Window Maximum ): use deque to store index; beat 54.69%;
 
 - (223. Rectangle Area ): de Morgan's theorem; beat 2.12%;
+
+- (91. Decode Ways ): DP; beat 12.83%;
