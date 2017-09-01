@@ -509,3 +509,8 @@ Beat 63.33%;
 - (223. Rectangle Area ): de Morgan's theorem; beat 2.12%;
 
 - (91. Decode Ways ): DP; beat 12.83%;
+
+- (600. Non-negative Integers without Consecutive Ones ): dp; beat 87.58%;
+- (342. Power of Four ):
+	1. log2; beat 29.59%;
+	2. use pow of 2, and do some rid; beat 1.94%;
