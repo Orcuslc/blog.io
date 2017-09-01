@@ -509,3 +509,5 @@ Beat 63.33%;
 - (223. Rectangle Area ): de Morgan's theorem; beat 2.12%;
 
 - (91. Decode Ways ): DP; beat 12.83%;
+- (639. Decode Ways II ): DP(only with more side-conditions); beat 11.98%;
+- (47. Permutations II ): backtracking; beat 28.92%;
