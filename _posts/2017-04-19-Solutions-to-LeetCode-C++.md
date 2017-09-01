@@ -511,3 +511,9 @@ Beat 63.33%;
 - (91. Decode Ways ): DP; beat 12.83%;
 - (639. Decode Ways II ): DP(only with more side-conditions); beat 11.98%;
 - (47. Permutations II ): backtracking; beat 28.92%;
+
+- (600. Non-negative Integers without Consecutive Ones ): dp; beat 87.58%;
+- (342. Power of Four ):
+	1. log2; beat 29.59%;
+	2. use pow of 2, and do some rid; beat 1.94%;
+
