@@ -516,3 +516,4 @@ Beat 63.33%;
 	2. use pow of 2, and do some rid; beat 1.94%;
 
 - (124. Binary Tree Maximum Path Sum ): DP; beat 62.06%;
+- (220. Contains Duplicate III ): Sliding window; beat 88.36%;
