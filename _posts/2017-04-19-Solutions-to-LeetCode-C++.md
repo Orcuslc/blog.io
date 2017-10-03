@@ -514,3 +514,5 @@ Beat 63.33%;
 - (342. Power of Four ):
 	1. log2; beat 29.59%;
 	2. use pow of 2, and do some rid; beat 1.94%;
+
+- (124. Binary Tree Maximum Path Sum ): DP; beat 62.06%;
