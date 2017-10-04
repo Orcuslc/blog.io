@@ -517,14 +517,19 @@ Beat 63.33%;
 	1. log2; beat 29.59%;
 	2. use pow of 2, and do some rid; beat 1.94%;
 
+<<<<<<< HEAD
 - (212. Word Search II ):
 	1. DFS; TLE(&& WA, since Input words may duplicate)
 	2. DFS with Trie; beat 79.98%;
 
 - (673. Number of Longest Increasing Subsequence ): DP with two vector storing maxLen and maxCount; beat 90.15%;
 
+- (124. Binary Tree Maximum Path Sum ): DP; beat 62.06%;
+- (220. Contains Duplicate III ): Sliding window; beat 88.36%;
+
 - ( 676. Implement Magic Dictionary ): Trie Tree + DFS; beat 18.19%;
 
 - ( 336. Palindrome Pairs ): Map and split the words into two parts; beat 86.88%;
 - ( 393. UTF-8 Validation ): DFS; beat 26.52%;
-- ()
+
+
