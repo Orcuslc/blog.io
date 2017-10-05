@@ -517,7 +517,6 @@ Beat 63.33%;
 	1. log2; beat 29.59%;
 	2. use pow of 2, and do some rid; beat 1.94%;
 
-<<<<<<< HEAD
 - (212. Word Search II ):
 	1. DFS; TLE(&& WA, since Input words may duplicate)
 	2. DFS with Trie; beat 79.98%;
@@ -532,4 +531,4 @@ Beat 63.33%;
 - ( 336. Palindrome Pairs ): Map and split the words into two parts; beat 86.88%;
 - ( 393. UTF-8 Validation ): DFS; beat 26.52%;
 
-
+- ( 25. Reverse Nodes in k-Group ): recursion; beat 
