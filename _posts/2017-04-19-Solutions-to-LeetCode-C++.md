@@ -531,4 +531,8 @@ Beat 63.33%;
 - ( 336. Palindrome Pairs ): Map and split the words into two parts; beat 86.88%;
 - ( 393. UTF-8 Validation ): DFS; beat 26.52%;
 
-- ( 25. Reverse Nodes in k-Group ): recursion; beat 
+- ( 25. Reverse Nodes in k-Group ): recursion; beat 85.67%;
+- ( 77. Combinations ): 
+	1. generate ALL subsets; beat 4.11%;
+	2. backtracking; beat 67.35%;
+- (682. Baseball Game): using a stack; beat 12.90%;
