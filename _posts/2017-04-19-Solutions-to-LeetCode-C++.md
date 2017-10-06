@@ -536,3 +536,7 @@ Beat 63.33%;
 	1. generate ALL subsets; beat 4.11%;
 	2. backtracking; beat 67.35%;
 - (682. Baseball Game): using a stack; beat 12.90%;
+
+- (30. Substring with Concatenation of All Words): using two unordered_map to store count; beat 45.63%;
+- ( 87. Scramble String ): simple recursion; beat 68.83%;
+- ( 671. Second Minimum Node In a Binary Tree ): dfs; beat 64.46%;
