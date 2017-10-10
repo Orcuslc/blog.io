@@ -540,3 +540,11 @@ Beat 63.33%;
 - (30. Substring with Concatenation of All Words): using two unordered_map to store count; beat 45.63%;
 - ( 87. Scramble String ): simple recursion; beat 68.83%;
 - ( 671. Second Minimum Node In a Binary Tree ): dfs; beat 64.46%;
+
+- ( 318. Maximum Product of Word Lengths ): using bitmap to save the existence of each letter; (1 << (c-'a')); Notice: `&` < `==` in computing; beat 89.63%;
+
+- ( 665. Non-decreasing Array ): kind of greedy; beat 22.23%;
+- ( 373. Find K Pairs with Smallest Sums ): FAILED; NEED TO REVIEW PRIORITY-QUEUE/HEAP; using priority_queue; beat 83.44%;
+
+- ( 287. Find the Duplicate Number ): regrad it as a graph with circle; find out the entrance of the circle; beat 57.31%;
+- ()
