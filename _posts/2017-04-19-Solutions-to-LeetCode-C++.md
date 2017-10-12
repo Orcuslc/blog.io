@@ -547,4 +547,6 @@ Beat 63.33%;
 - ( 373. Find K Pairs with Smallest Sums ): FAILED; NEED TO REVIEW PRIORITY-QUEUE/HEAP; using priority_queue; beat 83.44%;
 
 - ( 287. Find the Duplicate Number ): regrad it as a graph with circle; find out the entrance of the circle; beat 57.31%;
-- ()
+
+- ( 377. Combination Sum IV ): dfs failed since permutations matter; dp, beat 60.88%;
+- ( 230. Kth Smallest Element in a BST ): in-order traversal; beat 14.87%;
