@@ -550,3 +550,6 @@ Beat 63.33%;
 
 - ( 377. Combination Sum IV ): dfs failed since permutations matter; dp, beat 60.88%;
 - ( 230. Kth Smallest Element in a BST ): in-order traversal; beat 14.87%;
+
+- ( 464. Can I Win ): memorized dfs; use a hash function to hash `vector<int>` to `int`; beat 40.80%;
+- ()
