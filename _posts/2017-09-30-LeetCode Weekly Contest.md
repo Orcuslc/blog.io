@@ -16,3 +16,9 @@ tags: [algorithm]
 2. (695. Max Area of Island ): 0:16:06, 0 error;
 3. (694. Number of Distinct Islands ): 0:44:05, 0 error;
 4. (691. Stickers to Spell Word ): A integer-programming problem, but with no idea how to do that...
+
+### 54: 2017-10-14: Rank 266/3232, 15 points;
+1. (697. Degree of an Array ): 0:37:35, 0 error;
+2. (696. Count Binary Substrings ): 0:50:08, 0 error;
+3. (698. Partition to K Equal Sum Subsets ): DFS, TLE; changed the `void` function to `bool`, AC; 0:57:41, 3 error;
+4. (699. Falling Squares ): `unordered_map<int, int>` TLE; Need to try with `priority_queue`; 
