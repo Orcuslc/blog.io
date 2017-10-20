@@ -554,3 +554,6 @@ Beat 63.33%;
 - ( 464. Can I Win ): memorized dfs; use a hash function to hash `vector<int>` to `int`; beat 40.80%;
 - ( 329. Longest Increasing Path in a Matrix ): memorized dfs; beat 34.92%;
 - ( 403. Frog Jump ): failed to use `pair<int, int>` as a key of `unordered_map`; memorized dfs; beat 14.91%;
+
+- ( 692. Top K Frequent Words ): bucket sort; beat 82.45%;
+- ()
