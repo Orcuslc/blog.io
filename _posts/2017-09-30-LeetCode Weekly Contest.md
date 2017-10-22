@@ -22,3 +22,9 @@ tags: [algorithm]
 2. (696. Count Binary Substrings ): 0:50:08, 0 error;
 3. (698. Partition to K Equal Sum Subsets ): DFS, TLE; changed the `void` function to `bool`, AC; 0:57:41, 3 error;
 4. (699. Falling Squares ): `unordered_map<int, int>` TLE; Need to try with `priority_queue`; 
+
+### 55: 2017-10-21: Rank 173/3036, 18 points;
+1. (714. Best Time to Buy and Sell Stock with Transaction Fee ): DP; 0:23:04, 0 error;
+2. (712. Minimum ASCII Delete Sum for Two Strings ): DP; 1:23:16, 2 WA;
+3. (713. Subarray Product Less Than K ): DP; 0:48:06, 1 WA;
+4. (715. Range Module ): No time left.
