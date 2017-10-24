@@ -556,4 +556,6 @@ Beat 63.33%;
 - ( 403. Frog Jump ): failed to use `pair<int, int>` as a key of `unordered_map`; memorized dfs; beat 14.91%;
 
 - ( 692. Top K Frequent Words ): bucket sort; beat 82.45%;
+
+- ( 679. 24 Game ): backtracking; beat 48.48%;
 - ()
