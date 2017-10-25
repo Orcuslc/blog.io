@@ -558,4 +558,7 @@ Beat 63.33%;
 - ( 692. Top K Frequent Words ): bucket sort; beat 82.45%;
 
 - ( 679. 24 Game ): backtracking; beat 48.48%;
+
+- ( 410. Split Array Largest Sum ): A binary search in the solution space; beat 35.65%;
+- ( 116. Populating Next Right Pointers in Each Node ): recursion; beat 30.55%;
 - ()
