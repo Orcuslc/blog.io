@@ -561,4 +561,7 @@ Beat 63.33%;
 
 - ( 410. Split Array Largest Sum ): A binary search in the solution space; beat 35.65%;
 - ( 116. Populating Next Right Pointers in Each Node ): recursion; beat 30.55%;
-- ()
+
+- ( 677. Map Sum Pairs ): Trie; beat 25.00%;
+- ( 297. Serialize and Deserialize Binary Tree ): pre-order traversal; beat 
+- ( 335. Self Crossing ): Interesting! x[i] can only cross x[i-3], x[i-4], x[i-5]. beat 35.64%;
