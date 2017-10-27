@@ -577,3 +577,5 @@ Beat 63.33%;
 	1. Direct greedy method; beat 33.56%;
 	2. DP; beat 33.56%;
 - ( 92. Reverse Linked List II ): New a ListNode before head in case to avoid Runtime Error; beat 0.62%;
+- ( 201. Bitwise AND of Numbers Range ): bit op; beat 85.17%;
+
