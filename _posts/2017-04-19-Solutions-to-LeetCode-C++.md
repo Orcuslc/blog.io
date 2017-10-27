@@ -565,3 +565,8 @@ Beat 63.33%;
 - ( 677. Map Sum Pairs ): Trie; beat 25.00%;
 - ( 297. Serialize and Deserialize Binary Tree ): pre-order traversal; beat 
 - ( 335. Self Crossing ): Interesting! x[i] can only cross x[i-3], x[i-4], x[i-5]. beat 35.64%;
+
+- ( 406. Queue Reconstruction by Height ): sort and then insert; beat 50.93%;
+- ( 658. Find K Closest Elements ):
+	1. two sorts; beat 16.74%;
+	2. bisearch; beat 98.77%;
