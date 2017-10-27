@@ -570,3 +570,10 @@ Beat 63.33%;
 - ( 658. Find K Closest Elements ):
 	1. two sorts; beat 16.74%;
 	2. bisearch; beat 98.77%;
+- ( 89. Gray Code ): induction; beat 44.10%;
+
+- ( 674. Longest Continuous Increasing Subsequence ): trivial; beat 22.43%;
+- ( 330. Patching Array ):
+	1. Direct greedy method; beat 33.56%;
+	2. DP; beat 33.56%;
+- ( 92. Reverse Linked List II ): New a ListNode before head in case to avoid Runtime Error; beat 0.62%;
