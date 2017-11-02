@@ -586,3 +586,7 @@ Beat 63.33%;
 - ( 191. Number of 1 Bits ): 
 	1. just a bitwise and; beat 26.03%;
 	2. 
+
+- ( 115. Distinct Subsequences ):
+	1. DFS; TLE;
+	2. DP; beat 26.50%;
