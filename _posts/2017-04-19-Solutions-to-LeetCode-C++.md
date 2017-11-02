@@ -579,3 +579,10 @@ Beat 63.33%;
 - ( 92. Reverse Linked List II ): New a ListNode before head in case to avoid Runtime Error; beat 0.62%;
 - ( 201. Bitwise AND of Numbers Range ): bit op; beat 85.17%;
 
+- ( 174. Dungeon Game ): DP; beat 31.13%;
+
+- ( 295. Find Median from Data Stream ): two heaps, small: Max Heap; large: Min Heap(use negative values to pretend the min heap); beat 62.67%;
+- ( 127. Word Ladder ): bfs; beat 20.80%;
+- ( 191. Number of 1 Bits ): 
+	1. just a bitwise and; beat 26.03%;
+	2. 
