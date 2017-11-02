@@ -28,3 +28,9 @@ tags: [algorithm]
 2. (712. Minimum ASCII Delete Sum for Two Strings ): DP; 1:23:16, 2 WA;
 3. (713. Subarray Product Less Than K ): DP; 0:48:06, 1 WA;
 4. (715. Range Module ): No time left.
+
+### 56: 2017-10-28: Rank 165/2655, 22 points;
+1. (717. 1-bit and 2-bit Characters ): dfs; 0:27:06;
+2. (443. String Compression ): simple iteration; 0:21:19, 3 WA;
+3. (718. Maximum Length of Repeated Subarray ): DP; 0:58:15, 1 TLE, 1 OLE, 4 WA; 
+4. (719. Find K-th Smallest Pair Distance ): binary search in the solution space; 0:40:07, 1 WA;
