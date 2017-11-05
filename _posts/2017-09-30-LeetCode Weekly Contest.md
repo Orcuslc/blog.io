@@ -34,3 +34,7 @@ tags: [algorithm]
 2. (443. String Compression ): simple iteration; 0:21:19, 3 WA;
 3. (718. Maximum Length of Repeated Subarray ): DP; 0:58:15, 1 TLE, 1 OLE, 4 WA; 
 4. (719. Find K-th Smallest Pair Distance ): binary search in the solution space; 0:40:07, 1 WA;
+
+### 57： 2017-11-04: Rank 433/2719, 4 points;
+1. (720. Longest Word in Dictionary ): dfs; 0:9:31;
+2. (721. Accounts Merge ): hhhhhh (Tried to learn UnionSet by this problem, so no time for other problems). UnionSet, 3 WA, 1 TLE;
