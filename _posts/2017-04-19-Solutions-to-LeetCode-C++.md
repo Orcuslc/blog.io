@@ -590,3 +590,11 @@ Beat 63.33%;
 - ( 115. Distinct Subsequences ):
 	1. DFS; TLE;
 	2. DP; beat 26.50%;
+
+- ( 669. Trim a Binary Search Tree ): recursion; beat 42.63%;
+- (690. Employee Importance): 
+	1. bfs; beat 9.23%;
+	2. dfs; beat 10.17%;
+
+- ( 684. Redundant Connection ): Union Set; beat 27.39%;
+- ( 685. Redundant Connection II ): Union Set; beat 26.48%;
