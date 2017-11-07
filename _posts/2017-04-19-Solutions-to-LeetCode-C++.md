@@ -598,3 +598,6 @@ Beat 63.33%;
 
 - ( 684. Redundant Connection ): Union Set; beat 27.39%;
 - ( 685. Redundant Connection II ): Union Set; beat 26.48%;
+
+- (68. Text Justification ): trivial; beat 51.03%;
+- (661. Image Smoother ): trivial; beat 79.52%;
