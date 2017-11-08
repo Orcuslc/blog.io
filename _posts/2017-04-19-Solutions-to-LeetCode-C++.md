@@ -601,3 +601,6 @@ Beat 63.33%;
 
 - (68. Text Justification ): trivial; beat 51.03%;
 - (661. Image Smoother ): trivial; beat 79.52%;
+
+- ( 460. LFU Cache ): unordered_map + linked list; beat 52.40%;
+- ( 670. Maximum Swap ): dp; beat 13.84%;
