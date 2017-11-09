@@ -604,3 +604,5 @@ Beat 63.33%;
 
 - ( 460. LFU Cache ): unordered_map + linked list; beat 52.40%;
 - ( 670. Maximum Swap ): dp; beat 13.84%;
+
+- ( 363. Max Sum of Rectangle No Larger Than K ): similar with POJ 1050; beat 81.25%;
