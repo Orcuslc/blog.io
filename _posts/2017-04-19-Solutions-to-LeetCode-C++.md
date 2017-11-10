@@ -606,3 +606,5 @@ Beat 63.33%;
 - ( 670. Maximum Swap ): dp; beat 13.84%;
 
 - ( 363. Max Sum of Rectangle No Larger Than K ): similar with POJ 1050; beat 81.25%;
+
+- ( 321. Create Maximum Number ): kind of merge sort; beat 41.99%;
