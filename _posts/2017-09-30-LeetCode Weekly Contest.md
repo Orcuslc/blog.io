@@ -38,3 +38,9 @@ tags: [algorithm]
 ### 57： 2017-11-04: Rank 433/2719, 4 points;
 1. (720. Longest Word in Dictionary ): dfs; 0:9:31;
 2. (721. Accounts Merge ): hhhhhh (Tried to learn UnionSet by this problem, so no time for other problems). UnionSet, 3 WA, 1 TLE;
+
+### 58: 2017-11-11: Rank 387/2514, 16 points;
+1. (724. Find Pivot Index ): presum; 0:28:06; (Because of Technical error of leetcode...A lasting 500 error)...
+2. (725. Split Linked List in Parts ): brute force; 0:43:51;
+3. (726. Number of Atoms ): stack; 1:33:49;
+4. (727. Minimum Window Subsequence ): sliding window, but this problem require an ordered element... so WA; tried brute force, but TLE;
