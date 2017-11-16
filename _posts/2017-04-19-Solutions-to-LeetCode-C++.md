@@ -610,3 +610,5 @@ Beat 63.33%;
 - ( 321. Create Maximum Number ): kind of merge sort; beat 41.99%;
 
 - ( 678. Valid Parenthesis String ): use the range; beat 85.45%;
+
+- ( 375. Guess Number Higher or Lower II ): dp; beat 51.30%;
