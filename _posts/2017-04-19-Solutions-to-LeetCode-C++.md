@@ -509,8 +509,104 @@ Beat 63.33%;
 - (223. Rectangle Area ): de Morgan's theorem; beat 2.12%;
 
 - (91. Decode Ways ): DP; beat 12.83%;
+- (639. Decode Ways II ): DP(only with more side-conditions); beat 11.98%;
+- (47. Permutations II ): backtracking; beat 28.92%;
 
 - (600. Non-negative Integers without Consecutive Ones ): dp; beat 87.58%;
 - (342. Power of Four ):
 	1. log2; beat 29.59%;
 	2. use pow of 2, and do some rid; beat 1.94%;
+
+- (212. Word Search II ):
+	1. DFS; TLE(&& WA, since Input words may duplicate)
+	2. DFS with Trie; beat 79.98%;
+
+- (673. Number of Longest Increasing Subsequence ): DP with two vector storing maxLen and maxCount; beat 90.15%;
+
+- (124. Binary Tree Maximum Path Sum ): DP; beat 62.06%;
+- (220. Contains Duplicate III ): Sliding window; beat 88.36%;
+
+- ( 676. Implement Magic Dictionary ): Trie Tree + DFS; beat 18.19%;
+
+- ( 336. Palindrome Pairs ): Map and split the words into two parts; beat 86.88%;
+- ( 393. UTF-8 Validation ): DFS; beat 26.52%;
+
+- ( 25. Reverse Nodes in k-Group ): recursion; beat 85.67%;
+- ( 77. Combinations ): 
+	1. generate ALL subsets; beat 4.11%;
+	2. backtracking; beat 67.35%;
+- (682. Baseball Game): using a stack; beat 12.90%;
+
+- (30. Substring with Concatenation of All Words): using two unordered_map to store count; beat 45.63%;
+- ( 87. Scramble String ): simple recursion; beat 68.83%;
+- ( 671. Second Minimum Node In a Binary Tree ): dfs; beat 64.46%;
+
+- ( 318. Maximum Product of Word Lengths ): using bitmap to save the existence of each letter; (1 << (c-'a')); Notice: `&` < `==` in computing; beat 89.63%;
+
+- ( 665. Non-decreasing Array ): kind of greedy; beat 22.23%;
+- ( 373. Find K Pairs with Smallest Sums ): FAILED; NEED TO REVIEW PRIORITY-QUEUE/HEAP; using priority_queue; beat 83.44%;
+
+- ( 287. Find the Duplicate Number ): regrad it as a graph with circle; find out the entrance of the circle; beat 57.31%;
+
+- ( 377. Combination Sum IV ): dfs failed since permutations matter; dp, beat 60.88%;
+- ( 230. Kth Smallest Element in a BST ): in-order traversal; beat 14.87%;
+
+- ( 464. Can I Win ): memorized dfs; use a hash function to hash `vector<int>` to `int`; beat 40.80%;
+- ( 329. Longest Increasing Path in a Matrix ): memorized dfs; beat 34.92%;
+- ( 403. Frog Jump ): failed to use `pair<int, int>` as a key of `unordered_map`; memorized dfs; beat 14.91%;
+
+- ( 692. Top K Frequent Words ): bucket sort; beat 82.45%;
+
+- ( 679. 24 Game ): backtracking; beat 48.48%;
+
+- ( 410. Split Array Largest Sum ): A binary search in the solution space; beat 35.65%;
+- ( 116. Populating Next Right Pointers in Each Node ): recursion; beat 30.55%;
+
+- ( 677. Map Sum Pairs ): Trie; beat 25.00%;
+- ( 297. Serialize and Deserialize Binary Tree ): pre-order traversal; beat 
+- ( 335. Self Crossing ): Interesting! x[i] can only cross x[i-3], x[i-4], x[i-5]. beat 35.64%;
+
+- ( 406. Queue Reconstruction by Height ): sort and then insert; beat 50.93%;
+- ( 658. Find K Closest Elements ):
+	1. two sorts; beat 16.74%;
+	2. bisearch; beat 98.77%;
+- ( 89. Gray Code ): induction; beat 44.10%;
+
+- ( 674. Longest Continuous Increasing Subsequence ): trivial; beat 22.43%;
+- ( 330. Patching Array ):
+	1. Direct greedy method; beat 33.56%;
+	2. DP; beat 33.56%;
+- ( 92. Reverse Linked List II ): New a ListNode before head in case to avoid Runtime Error; beat 0.62%;
+- ( 201. Bitwise AND of Numbers Range ): bit op; beat 85.17%;
+
+- ( 174. Dungeon Game ): DP; beat 31.13%;
+
+- ( 295. Find Median from Data Stream ): two heaps, small: Max Heap; large: Min Heap(use negative values to pretend the min heap); beat 62.67%;
+- ( 127. Word Ladder ): bfs; beat 20.80%;
+- ( 191. Number of 1 Bits ): 
+	1. just a bitwise and; beat 26.03%;
+	2. 
+
+- ( 115. Distinct Subsequences ):
+	1. DFS; TLE;
+	2. DP; beat 26.50%;
+
+- ( 669. Trim a Binary Search Tree ): recursion; beat 42.63%;
+- (690. Employee Importance): 
+	1. bfs; beat 9.23%;
+	2. dfs; beat 10.17%;
+
+- ( 684. Redundant Connection ): Union Set; beat 27.39%;
+- ( 685. Redundant Connection II ): Union Set; beat 26.48%;
+
+- (68. Text Justification ): trivial; beat 51.03%;
+- (661. Image Smoother ): trivial; beat 79.52%;
+
+- ( 460. LFU Cache ): unordered_map + linked list; beat 52.40%;
+- ( 670. Maximum Swap ): dp; beat 13.84%;
+
+- ( 363. Max Sum of Rectangle No Larger Than K ): similar with POJ 1050; beat 81.25%;
+
+- ( 321. Create Maximum Number ): kind of merge sort; beat 41.99%;
+
+- ( 678. Valid Parenthesis String ): use the range; beat 85.45%;
