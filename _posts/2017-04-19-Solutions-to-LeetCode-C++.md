@@ -612,3 +612,7 @@ Beat 63.33%;
 - ( 678. Valid Parenthesis String ): use the range; beat 85.45%;
 
 - ( 375. Guess Number Higher or Lower II ): dp; beat 51.30%;
+
+- ( 23. Merge k Sorted Lists ): 
+	1. brute-force: O(nk); beat 23.41%
+	2. 
