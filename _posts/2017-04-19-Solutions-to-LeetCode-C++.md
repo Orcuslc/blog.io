@@ -610,3 +610,7 @@ Beat 63.33%;
 - ( 321. Create Maximum Number ): kind of merge sort; beat 41.99%;
 
 - ( 678. Valid Parenthesis String ): use the range; beat 85.45%;
+
+- ( 23. Merge k Sorted Lists ): 
+	1. brute-force: O(nk); beat 23.41%
+	2. 
