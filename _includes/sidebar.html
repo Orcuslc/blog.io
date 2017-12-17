@@ -1,0 +1,63 @@
+<aside id="sidebar">
+  <div class="sidebar-item">
+    <div class="sidebar-personal-info">
+      <div class="sidebar-personal-info-section">
+        <a href="https://gravatar.com/{{ site.author.gravatar }}" title="View on Gravatar" class="photo">
+          <img src="https://s.gravatar.com/avatar/{{ site.author.gravatar }}?s=150" alt="Photo"/>
+        </a>
+      </div>
+      <div class="sidebar-personal-info-section">
+        <span style="font-size:16px; color:#999999">SOME</span>
+        <span id="container-shuffle">{{ site.author.description }}</span>.
+      </div>
+      {% if site.author.contact %}
+      {% assign len = site.author.contact | size %}
+      {% assign index = 0 %}
+      <div class="sidebar-personal-info-section">
+          {% for contact in site.author.contact %}
+            {% assign iconname = contact[0] %}
+            {% if contact[0] == 'email' %} 
+              {% assign iconname = 'envelope' %}
+            {% endif %}
+            {% if contact[0] == 'homepage' %}
+              {% assign iconname = 'home' %}
+            {% endif %}
+            <a href="{{ contact[1] }}">
+              <i class="fa fa-{{ iconname }}" aria-hidden="true"></i>
+            </a>
+            {% assign index = index | plus: 1 %}
+            {% if index != len %}|{% endif %}
+          {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  <nav class="sidebar-nav">
+    {% for nav in site.nav %}
+      {% assign is_relative = nav[1][0] | slice: 0 %}
+      {% assign url = nav[1][0] %}
+      {% if is_relative == '/' %} 
+        {% assign url = nav[1][0] | prepend: site.baseurl %}
+      {% endif %}
+      {% assign sub_len = nav[1] | size | minus: 1 %}
+      <span class="{% if sub_len > 0 %}foldable{% endif %}">
+        <a class="sidebar-nav-item {% if page.url == nav[1][0] %}active{% endif %}" href="{{ url }}">
+          {{ nav[0] }}
+        </a>
+
+        {% for i in (1..sub_len) %}
+          {% for sub_nav in nav[1][i] %}
+            {% assign sub_is_relative = sub_nav[1] | slice: 0 %}
+            {% assign sub_url = sub_nav[1] %}
+            {% if sub_is_relative == '/' %}
+              {% assign sub_url = sub_nav[1] | prepend: site.baseurl %}
+            {% endif %}
+              <a class="sidebar-nav-item sidebar-nav-item-sub {% if page.url == sub_nav[1] %}active{% endif %}" href="{{ sub_url }}">
+                {{ sub_nav[0] }}
+              </a>
+          {% endfor %}
+        {% endfor %}
+      </span>
+
+{% endfor %}
+</aside>
