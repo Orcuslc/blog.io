@@ -1,12 +1,122 @@
+/* Modified by @Orcuslc 2017-12-16 */
+
 @import "normalize";
 @import "rouge-github";
 
 /* LAYOUT STYLES */
 
-#container-shuffle {
-  font-size: 18px;
+$red:      #ac4142;
+$orange:   #d28445;
+$yellow:   #f4bf75;
+$green:    #90a959;
+$cyan:     #75b5aa;
+$blue:     #6a9fb5;
+$magenta:  #aa759f;
+$brown:    #8f5536;
+$default:  #505050;
+
+$white:      #fff;
+$lightgrey:  #eee;
+$black:      #000;
+
+$theme-color: $blue;
+$theme-color-dark: darken($theme-color, 10%);
+
+$post-date-color: #9a9a9a;
+$title-color: #313131;
+$masthead-title-small-color: #c0c0c0;
+
+/* Layout */
+$reverse-layout: true;
+$overlay-sidebar: false;
+
+/* Font stack */
+$font-serif: "PT Serif", Georgia, "Times New Roman", serif;
+$font-sans: "PT Sans", Helvetica, Arial, sans-serif;
+$font-font-awesome: FontAwesome;
+
+aside a.button {
+  display: block;
+  width: 138px;
+  padding-left: 64px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  background: transparent url(../images/download-button.png) 0 0 no-repeat;
+}
+
+aside#sidebar {
+  float: right;
+  width: 200px;
+  min-height: 504px;
+  padding-left: 10px;
+  line-height: 1.5;
+  font-color: #e6e6e6;
+  background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat;
+  @if $reverse-layout {
+    left: auto;
+    right: -14rem;
+  } @else {
+    left: -14rem;
+    right: auto;
+  }
+}
+
+aside#sidebar p.repo-owner,
+aside#sidebar p.repo-owner a {
   font-weight: bold;
-  color: #737373;
+}
+aside#sidebar a {
+  font-weight: normal;
+  color: #999999;
+}
+aside#sidebar .sidebar-item {
+  padding: 1rem;
+}
+aside#sidebar .sidebar-item p:last-child {
+  margin-bottom: 0;
+}
+
+aside#sidebar .sidebar-personal-info {
+  .sidebar-personal-info-section {
+    &:not(:first-of-type) {
+      margin-top: .75rem;
+    }
+    line-height: 1rem;
+    a, strong {
+      text-decoration: none;
+    }
+  }
+}
+
+/* Sidebar nav */
+aside#sidebar .sidebar-nav {
+  border-bottom: 1px solid #e6e6e6;
+}
+aside#sidebar .sidebar-nav-item {
+  display: block;
+  padding: .5rem 1rem;
+  border-top: 1px solid #e6e6e6;
+}
+aside#sidebar .sidebar-nav-item-sub {
+  &:before {
+    content: "";
+    padding-left: 1em;
+  }
+  font-size: 85%;
+  line-height: 85%;
+}
+aside#sidebar .sidebar-nav-item.active,
+aside#sidebar a.sidebar-nav-item:hover,
+aside#sidebar a.sidebar-nav-item:focus {
+  text-decoration: none;
+  background-color: #e6e6e6;
+  border-color: transparent;
+}
+
+#container-shuffle {
+  font-size: 15px;
+  font-weight: bold;
+  color: #2879d0;
 }
 
 body {
@@ -79,20 +189,6 @@ header h2 {
   max-width: 100%;
 }
 
-aside#sidebar {
-  float: right;
-  width: 200px;
-  min-height: 504px;
-  padding-left: 20px;
-  font-size: 12px;
-  line-height: 1.3;
-  background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat;
-}
-
-aside#sidebar p.repo-owner,
-aside#sidebar p.repo-owner a {
-  font-weight: bold;
-}
 
 #downloads {
   margin-bottom: 40px;
@@ -118,14 +214,7 @@ header a.button {
   right: 0;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
-aside a.button {
-  display: block;
-  width: 138px;
-  padding-left: 64px;
-  margin-bottom: 20px;
-  font-size: 21px;
-  background: transparent url(../images/download-button.png) 0 0 no-repeat;
-}
+
 
 code, pre {
   margin-bottom: 30px;

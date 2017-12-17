@@ -16,7 +16,7 @@ $(function(){
 			// text = s[Math.floor(Math.random()*s.length)];
 			container.shuffleLetters({"text": s[Math.floor(Math.random()*s.length)]});
 			
-	},3000);
+	},2000);
 	
 });
 

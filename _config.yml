@@ -1,9 +1,27 @@
 title: Chuan Lu (@orcuslc)
 description: Be Epic, and do things that MATTER.
+baseurl: "/"
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-architect
 
 author:
   gravatar: 436e2542ad8e21f41e94ac565d7d8c64
-  description: Mathematician,Researcher,Developer,Historian,Photographer,Musician
+  description: RESEARCHER,DEVELOPER,LIFE-LEARNER,ADVENTURER,CHALLENGER
+  contact:
+    homepage: http://chuanlu.xyz
+    github: https://github.com/orcuslc
+    linkedin: www.linkedin.com/in/chuanlu
+    email: http://www.google.com/recaptcha/mailhide/d?k=01c45SpzE8Ks9X2wb4RCT5Sg==&c=oMx8fFsZfQPv88sxko2cqjD-hUj8T6i2-OL4VYgn0Q4=
+
+nav:
+  Home:
+    - '/'
+  Blog:
+    - '/blog/'
+    - { Categories: '/blog/categories/' }
+    - { Tags: 'blog/tags/' }
+  About:
+    - '/about/'
+  GitHub:
+    - 'http://orcuslc.github.io'
