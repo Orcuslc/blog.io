@@ -6,8 +6,9 @@ google_analytics:
 theme: jekyll-theme-architect
 
 author:
+  name: Orcuslc
   gravatar: 436e2542ad8e21f41e94ac565d7d8c64
-  description: RESEARCHER,DEVELOPER,LIFE-LEARNER,ADVENTURER,CHALLENGER
+  description: RESEARCHER,DEVELOPER,LIFE-LEARNER,ADVENTURER,CHALLENGER,PUNKER
   contact:
     homepage: http://chuanlu.xyz
     github: https://github.com/orcuslc
@@ -25,3 +26,6 @@ nav:
     - '/about/'
   GitHub:
     - 'http://orcuslc.github.io'
+
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'

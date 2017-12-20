@@ -58,6 +58,11 @@
           {% endfor %}
         {% endfor %}
       </span>
+  {% endfor %}
 
-{% endfor %}
+  <div class="sidebar-item" style="font-size:10px">
+    <p>
+    &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. Powered by <a href="http://jekyllrb.com">jekyll</a> and <a href="orcuslc.github.io">Orcuslc-Architect</a>
+    </p>
+  </div>
 </aside>
