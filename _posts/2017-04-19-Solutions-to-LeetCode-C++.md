@@ -1,7 +1,7 @@
 ﻿---
 title: Solutions to LeetCode with C++
-category: solutions
-tag: [algorithm]
+category: Algorithm
+tag: [Solutions, LeetCode]
 ---
 
 ## Code for each problem: [GitHub](https://github.com/Orcuslc/Learning/tree/master/LeetCode)  

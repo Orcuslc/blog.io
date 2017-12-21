@@ -1,7 +1,7 @@
 ---
 title: LeetCode Weekly Contest Results
-category: programming
-tags: [algorithm]
+category: Algorithm
+tags: [Solutions, LeetCode]
 ---
 
 ## Code: [GitHub](https://github.com/Orcuslc/Learning/tree/master/LeetCode)  
