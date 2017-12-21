@@ -12,7 +12,7 @@ author:
   contact:
     homepage: http://chuanlu.xyz
     github: https://github.com/orcuslc
-    linkedin: www.linkedin.com/in/chuanlu
+    linkedin: https://www.linkedin.com/in/chuanlu
     email: http://www.google.com/recaptcha/mailhide/d?k=01c45SpzE8Ks9X2wb4RCT5Sg==&c=oMx8fFsZfQPv88sxko2cqjD-hUj8T6i2-OL4VYgn0Q4=
 
 nav:
@@ -21,11 +21,11 @@ nav:
   Blog:
     - '/blog/'
     - { Categories: '/blog/categories/' }
-    - { Tags: 'blog/tags/' }
+    - { Tags: '/blog/tags/' }
   About:
     - '/about/'
   GitHub:
-    - 'http://orcuslc.github.io'
+    - 'https://github.com/orcuslc/orcuslc.github.io'
 
 tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
