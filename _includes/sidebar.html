@@ -53,7 +53,7 @@
             {% if sub_is_relative == '/' %}
               {% assign sub_url = sub_nav[1] | relative_url %}
             {% endif %}
-              {% assign thispage = page.url | split:'.' | first %}
+              {% assign thispage = page.url | split:'.' | first | split:'/' | join:'/' %}
               <a class="sidebar-nav-item sidebar-nav-item-sub {% if thispage == sub_nav[1] %}active{% endif %}" href="{{ sub_url }}">
                 {{ sub_nav[0] }}
               </a>
