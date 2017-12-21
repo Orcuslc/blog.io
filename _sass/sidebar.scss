@@ -11,14 +11,25 @@ aside a.button {
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
 }
 
+#wrapper {
+  width: 500px;
+  margin: 0px auto;
+  position: relative;
+}
+
 aside#sidebar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  overflow-x: hidden;
+  margin-left: 1px;
   float: right;
   width: 200px;
-  min-height: 504px;
-  padding-left: 10px;
+  min-height: auto;
+  padding-left: 12px;
   line-height: 1.5;
   font-color: #e6e6e6;
-  background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat;
+  background: transparent url(../images/sidebar-bg.jpg) 0 0 repeat-y;
   @if $reverse-layout {
     left: auto;
     right: -14rem;
@@ -78,6 +89,12 @@ aside#sidebar a.sidebar-nav-item:focus {
   text-decoration: none;
   background-color: #e6e6e6;
   border-color: transparent;
+}
+
+@media (min-width: 30.1em) {
+  .sidebar-toggle {
+    position: fixed;
+  }
 }
 
 #container-shuffle {

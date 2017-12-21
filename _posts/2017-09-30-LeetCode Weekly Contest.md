@@ -11,6 +11,9 @@ tags: [algorithm]
 1. (686. Repeated String Match ): 0:54:04, 2 error;
 2. (687. Longest Univalue Path ): 1:19:55, 3 error;
 
+<!-- more -->
+
+
 ### 53: 2017-10-07: Rank 261/2392, 15 points;
 1. (693. Binary Number with Alternating Bits ): 0:06:05, 1 error;
 2. (695. Max Area of Island ): 0:16:06, 0 error;

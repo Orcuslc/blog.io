@@ -1,4 +1,5 @@
-<aside id="sidebar">
+<!-- <section id="wrapper"> -->
+<aside id="sidebar" class="sticky">
   <div class="sidebar-item">
     <div class="sidebar-personal-info">
       <div class="sidebar-personal-info-section">
@@ -59,11 +60,13 @@
           {% endfor %}
         {% endfor %}
       </span>
-  {% endfor %}
+    {% endfor %}
+  </nav>
 
   <div class="sidebar-item" style="font-size:10px">
     <p>
-    &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. Powered by <a href="http://jekyllrb.com">jekyll</a> and <a href="orcuslc.github.io">Orcuslc-Architect</a>
+    &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. Powered by <a href="http://jekyllrb.com">jekyll</a> and <a href="https://github.com/orcuslc/orcuslc.github.io">Orcuslc-Architect</a>
     </p>
   </div>
 </aside>
+<!-- </section> -->

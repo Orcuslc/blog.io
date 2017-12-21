@@ -12,6 +12,9 @@ tag: [algorithm]
 - (413) Arithmetic Slices: Dynamic Programming; Beat 15.54% cpp submissions;
 - (445) Use stacks to simulate the reversing of linked lists; Beat 20.60% cpp submissions;(测试了vector的表现, Beat 17.08% cpp submissions).
 
+<!-- more -->
+
+
 - (561) 用反证法即可知, 只需升序排序后将每组的第一个数相加即可
 - (461) 位运算233333
 - (557) use `stringstream` class to handle i/o. (in fact it is okay to use stack/vector)

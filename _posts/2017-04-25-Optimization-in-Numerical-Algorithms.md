@@ -18,6 +18,9 @@ def likelihood(miu, alpha, beta, T, N, n):
 	L = sum(np.log(L1)*n[0:T])-sum(L1)
 {%endhighlight%}
 
+<!-- more -->
+
+
 Using the `timeit` wrapper, one can find the average processing time for the `likelihood` function is 0.8s when `N=1000`.  
 
 I firstly replaced the computations with some functions that runs faster, and used some tricks to avoid repeated computations:

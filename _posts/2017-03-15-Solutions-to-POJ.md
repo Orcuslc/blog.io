@@ -8,6 +8,8 @@ tag: [algorithm]
 
 ## The followings are summaries to each problem.  
 
+<!-- more -->
+
 -  1000: trivial  
 -  1001: Not submitted yet  
 -  1002: Used a large array; Going to replace with a hash table  

@@ -7,6 +7,9 @@ I bumped into a problem when testing [BingBest](https://github.com/orcuslc/bingb
 
 When performing unit test on my main PC, all things works fine; But at testing on other PCs, the resolution got by the `screeninfo` module is just not the same as the hardware. I once thought it may be caused by the different resolution of the testing PCs (Lenovo Y50, Surface Pro 4), but until today I tested with my X1 Carbon (5th gen), with a resolution of 1920x1080, the same as my main PC; The result shows it has a resolution of 1536x864. I started to wonder if it is caused by system DPI settings (which I changed this morning.)
 
+<!-- more -->
+
+
 Firstly, I tried with the `pywin32` module:
 	
 	import win32api

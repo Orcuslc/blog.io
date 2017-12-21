@@ -27,5 +27,18 @@ nav:
   GitHub:
     - 'https://github.com/orcuslc/orcuslc.github.io'
 
-tag_page: '/blog/tags/'
-category_page: '/blog/categories/'
+tag_page: '/blog/tags'
+category_page: '/blog/categories'
+
+plugins:
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
+sass:
+  style: compressed
+  sass_dir: _sass
