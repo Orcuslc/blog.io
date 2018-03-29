@@ -616,3 +616,10 @@ Beat 63.33%;
 - ( 23. Merge k Sorted Lists ): 
 	1. brute-force: O(nk); beat 23.41%
 	2. 
+
+
+- (746. Min Cost Climbing Stairs): dp; beat 20.83%;
+- (740. Delete and Earn): dp, transform to a take-skip problem; beat 60.86%;
+
+- (790. Domino and Tromino Tiling): dp; beat 43.15%;
+- ()
