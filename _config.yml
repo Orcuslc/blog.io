@@ -1,78 +1,44 @@
-# Where things are
-collections:
-  my_categories:
-    output: true
-    permalink: /blog/category/:name/
-  my_tags:
-    output: true
-    permalink: /blog/tag/:name/
+title: Chuan Lu (@orcuslc)
+description: Be Epic, and do things that MATTER.
+baseurl: "/"
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-architect
 
-# Handling Reading
-exclude: [Gemfile, README.md]
+author:
+  name: Orcuslc
+  gravatar: 436e2542ad8e21f41e94ac565d7d8c64
+  description: RESEARCHER,DEVELOPER,LIFE-LEARNER,ADVENTURER,CHALLENGER,PUNKER
+  contact:
+    homepage: http://chuanlu.xyz
+    github: https://github.com/orcuslc
+    linkedin: https://www.linkedin.com/in/chuanlu
+    email: http://www.google.com/recaptcha/mailhide/d?k=01c45SpzE8Ks9X2wb4RCT5Sg==&c=oMx8fFsZfQPv88sxko2cqjD-hUj8T6i2-OL4VYgn0Q4=
 
-# Plugins
-gems:
+nav:
+  Home:
+    - '/'
+  Blog:
+    - '/blog/'
+    - { Categories: '/blog/categories' }
+    - { Tags: '/blog/tags' }
+  About:
+    - '/about/'
+  GitHub:
+    - 'https://github.com/orcuslc/orcuslc.github.io'
+
+tag_page: '/blog/tags'
+category_page: '/blog/categories'
+
+plugins:
   - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# Conversion
-markdown:    kramdown
-highlighter: rouge
-excerpt_separator: "\n\n\n"
-
-# Outputting
-permalink: /post/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
 paginate: 5
-paginate_path: '/blog/page/:num/'
-timezone: Asia/Beijing
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: pages
-    values:
-      layout: page
-  -
-    scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-  -
-    scope:
-      path: ""
-      type: my_categories
-    values:
-      layout: blog_by_category
-  -
-    scope:
-      path: ""
-      type: my_tags
-    values:
-      layout: blog_by_tag
-  -
-    scope:
-      path: "project"
-    values:
-      layout: project
-
+paginate_path: '/blog/page:num'
+permalink: pretty
 sass:
   style: compressed
-
-# Custom
-# domain: minddust.com
-url: https://orcuslc.github.io
-title: Chuan
-domain: https://orcuslc.github.io
-description: Computational Sciences
-copyright: 2017 Chuan Lu
-name: Chuan
-author: Chuan
-twitter:
-  username: orcuslc
-github:
-  username: orcuslc
-mail: orcuslc@hotmail.com
+  sass_dir: _sass

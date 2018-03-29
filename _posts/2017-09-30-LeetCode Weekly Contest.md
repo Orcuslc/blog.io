@@ -1,7 +1,7 @@
 ---
 title: LeetCode Weekly Contest Results
-category: programming
-tags: [algorithm]
+category: Algorithm
+tags: [Solutions, LeetCode]
 ---
 
 ## Code: [GitHub](https://github.com/Orcuslc/Learning/tree/master/LeetCode)  
@@ -10,6 +10,9 @@ tags: [algorithm]
 ### 52: 2017-09-30: Rank 681/2615, 8 points;
 1. (686. Repeated String Match ): 0:54:04, 2 error;
 2. (687. Longest Univalue Path ): 1:19:55, 3 error;
+
+<!-- more -->
+
 
 ### 53: 2017-10-07: Rank 261/2392, 15 points;
 1. (693. Binary Number with Alternating Bits ): 0:06:05, 1 error;

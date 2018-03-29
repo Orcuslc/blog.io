@@ -1,7 +1,7 @@
 ﻿---
 title: Solutions to LeetCode with C++
-category: solutions
-tag: [algorithm]
+category: Algorithm
+tag: [Solutions, LeetCode]
 ---
 
 ## Code for each problem: [GitHub](https://github.com/Orcuslc/Learning/tree/master/LeetCode)  
@@ -11,6 +11,9 @@ tag: [algorithm]
 - (2) Add two numbers: save the result in the long linked list; Beat 78.48% cpp submissions;
 - (413) Arithmetic Slices: Dynamic Programming; Beat 15.54% cpp submissions;
 - (445) Use stacks to simulate the reversing of linked lists; Beat 20.60% cpp submissions;(测试了vector的表现, Beat 17.08% cpp submissions).
+
+<!-- more -->
+
 
 - (561) 用反证法即可知, 只需升序排序后将每组的第一个数相加即可
 - (461) 位运算233333
