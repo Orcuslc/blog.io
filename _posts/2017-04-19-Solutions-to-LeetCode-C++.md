@@ -1,7 +1,7 @@
 ﻿---
 title: Solutions to LeetCode with C++
-category: solutions
-tag: [algorithm]
+category: Algorithm
+tag: [Solutions, LeetCode]
 ---
 
 ## Code for each problem: [GitHub](https://github.com/Orcuslc/Learning/tree/master/LeetCode)  
@@ -11,6 +11,9 @@ tag: [algorithm]
 - (2) Add two numbers: save the result in the long linked list; Beat 78.48% cpp submissions;
 - (413) Arithmetic Slices: Dynamic Programming; Beat 15.54% cpp submissions;
 - (445) Use stacks to simulate the reversing of linked lists; Beat 20.60% cpp submissions;(测试了vector的表现, Beat 17.08% cpp submissions).
+
+<!-- more -->
+
 
 - (561) 用反证法即可知, 只需升序排序后将每组的第一个数相加即可
 - (461) 位运算233333
@@ -620,3 +623,11 @@ Beat 63.33%;
 - (787. Cheapest Flights Within K Stops): dp; beat 39.80%;
 
 - (801. Minimum Swaps To Make Sequences Increasing): dp; beat 
+	2. 
+
+
+- (746. Min Cost Climbing Stairs): dp; beat 20.83%;
+- (740. Delete and Earn): dp, transform to a take-skip problem; beat 60.86%;
+
+- (790. Domino and Tromino Tiling): dp; beat 43.15%;
+- ()

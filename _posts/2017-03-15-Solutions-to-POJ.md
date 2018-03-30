@@ -1,12 +1,14 @@
 ---
 title: Solutions to POJ
-category: solutions
-tag: [algorithm]
+category: Algorithm
+tag: [Solutions, POJ]
 ---
 
 ## Code for each problem: [GitHub](https://github.com/Orcuslc/Learning/tree/master/POJ)  
 
 ## The followings are summaries to each problem.  
+
+<!-- more -->
 
 -  1000: trivial  
 -  1001: Not submitted yet  
