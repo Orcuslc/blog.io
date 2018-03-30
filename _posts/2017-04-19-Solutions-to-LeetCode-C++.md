@@ -615,4 +615,8 @@ Beat 63.33%;
 
 - ( 23. Merge k Sorted Lists ): 
 	1. brute-force: O(nk); beat 23.41%
-	2. 
+
+- (97. Interleaving String): dp; beat 97.40%;
+- (787. Cheapest Flights Within K Stops): dp; beat 39.80%;
+
+- (801. Minimum Swaps To Make Sequences Increasing): dp; beat 
