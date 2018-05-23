@@ -18,8 +18,17 @@ source activate fenicsproject
 conda install nb_conda_kernels
 ```
 
-3. Open jupyter notebook, and choose Notebook:
+3. Copy `libstdc++` to the environment where the version installed is too old:
+```bash
+cp /usr/lib/x86_64-linux-gnu/libstdc++.so.6 ~/.conda/envs/fenicsproject/lib/
+```
+
+4. Open jupyter notebook, and choose Notebook:
 ```
 Python [conda env:fenicsproject]
 ```
 
+5. Test:
+```python
+from fenics import *
+```
