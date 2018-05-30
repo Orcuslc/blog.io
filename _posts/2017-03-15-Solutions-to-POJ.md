@@ -2,6 +2,7 @@
 title: Solutions to POJ
 category: Algorithm
 tag: [Solutions, POJ]
+layout: post
 ---
 
 ## Code for each problem: [GitHub](https://github.com/Orcuslc/Learning/tree/master/POJ)  

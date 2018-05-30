@@ -2,6 +2,7 @@
 title: Solutions to UVA with C++
 category: Algorithm
 tag: [Solutions, UVA]
+layout: post
 ---
 ## Code for each problem: [GitHub](https://github.com/Orcuslc/Learning/tree/master/UVA)  
 

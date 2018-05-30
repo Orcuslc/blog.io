@@ -2,9 +2,12 @@
 title: Install FEniCS on Ubuntu 18.04 with conda and jupyter notebook
 category: Dev
 tags: [FEniCS, Python]
+layout: post
 ---
 
 ## First of all, DO NOT build from source because there will be en error when compiling DOLFIN.
+
+<!-- more -->
 
 ## Steps:
 1. Install FEniCS with conda:

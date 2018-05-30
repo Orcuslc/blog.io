@@ -2,6 +2,7 @@
 title: Solutions to LeetCode with C++
 category: Algorithm
 tag: [Solutions, LeetCode]
+layout: post
 ---
 
 ## Code for each problem: [GitHub](https://github.com/Orcuslc/Learning/tree/master/LeetCode)  

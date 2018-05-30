@@ -2,8 +2,11 @@
 title: Install CUDA 9.0 and TensorFlow 1.4 on Ubuntu 16.04LTS
 category: Dev
 tags: [CUDA, TensorFlow]
+layout: post
 ---
 This morning, when I woke from troubled dreams, I found myself transformed in my bed into a horrible bug... Ah, five system errors were hovering on my Ubuntu desktop, and then it turned black and never woke up again. So I need to give up my last two days for preparing the Qualifying Exam on ODE/PDE to fix my computer. In fact, I don't think I can pass the Qual this time even if nothing happened today: I was sufferring from a cold, a fever, a spondylitis, a high IOP, a stomachache, and finally a PC broke down in the last five days. Crazy! 
+
+<!-- more -->
 
 Ok, let's come to the topic. After a clean reinstallment with `/home` partition kept unchanged, we need to do the following steps to install CUDA and TensorFlow.
 

@@ -1,6 +1,8 @@
-
+@import "variables";
 @import "normalize";
 @import "rouge-github";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
 
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
@@ -23,10 +25,10 @@ a:hover {
 }
 
 header {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
   border-bottom: solid 1px #275da1;
 }
 
@@ -34,7 +36,7 @@ header h1 {
   width: 540px;
   margin-top: 0;
   margin-bottom: 0.2em;
-  font-size: 72px;
+  font-size: 50px;
   font-weight: normal;
   line-height: 1;
   color: #fff;
@@ -51,6 +53,7 @@ header h2 {
   color: #9ddcff;
   letter-spacing: 0;
 }
+
 
 .inner {
   position: relative;
@@ -98,33 +101,76 @@ header a.button {
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
 
-
-code, pre {
-  margin-bottom: 30px;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  font-size: 13px;
-  color: #222;
-}
-
 code {
-  padding: 0 3px;
-  background-color: #f2f8fc;
-  border: solid 1px #dbe7f3;
+  padding: 2px 4px;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 0.9rem;
+  color: $code-text-color;
+  background-color: $code-bg-color;
+  border-radius: 0.3rem;
 }
 
 pre {
-  padding: 20px;
+  padding: 0.8rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  color: $code-text-color;
+  word-wrap: normal;
+  background-color: $code-bg-color;
+  border: solid 1px $border-color;
+  border-radius: 0.3rem;
+
+  > code {
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+    color: $code-text-color;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+  }
+}
+
+.highlight {
+  margin-bottom: 1rem;
+
+  pre {
+    margin-bottom: 0;
+    word-break: normal;
+  }
+}
+
+.highlight pre,
+pre {
+  padding: 0.8rem;
   overflow: auto;
-  text-shadow: none;
-  background: #fff;
-  border: solid 1px #f2f2f2;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  border-radius: 0.3rem;
+  -webkit-overflow-scrolling: touch;
 }
-pre code {
+
+pre code,
+pre tt {
+  display: inline;
+  max-width: initial;
   padding: 0;
-  color: #2879d0;
-  background-color: #fff;
-  border: none;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+
+  &:before,
+  &:after {
+    content: normal;
+  }
 }
+
+
 
 ul, ol, dl {
   margin-bottom: 20px;
@@ -165,10 +211,11 @@ form {
 
 /* GENERAL ELEMENT TYPE STYLES */
 
+
 #main-content h1 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 2.8em;
   font-weight: normal;
   color: #474747;
@@ -185,7 +232,7 @@ form {
 
 #main-content h2 {
   margin-bottom: 8px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 22px;
   font-weight: bold;
   color: #474747;
@@ -201,7 +248,7 @@ form {
 #main-content h3 {
   margin-top: 24px;
   margin-bottom: 8px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 18px;
   font-weight: bold;
   color: #474747;
@@ -217,7 +264,7 @@ form {
 
 #main-content h4 {
   margin-bottom: 8px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 15px;
   font-weight: bold;
   color: #474747;
@@ -233,7 +280,7 @@ h4:before {
 
 #main-content h5 {
   margin-bottom: 8px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 14px;
   color: #474747;
   text-indent: 3px;
@@ -247,7 +294,7 @@ h5:before {
 
 #main-content h6 {
   margin-bottom: 8px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: .8em;
   color: #474747;
   text-indent: 3px;

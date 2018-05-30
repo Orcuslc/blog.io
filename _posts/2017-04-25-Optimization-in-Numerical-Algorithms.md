@@ -2,6 +2,7 @@
 title: Optimization in Numerical Algorithms, A Simulated Annealing example
 category: Algorithm
 tags: [Python, Numerics]
+layout: post
 ---
 
 

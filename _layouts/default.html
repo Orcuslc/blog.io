@@ -7,9 +7,9 @@
   <header>
     <div class="inner">
       <a href="{{ '/' | absolute_url }}">
-        <h2>{{ site.title | default: site.github.repository_name }}</h2>
+        <h1><font face="Open Sans" color="#c6d9ec">{{ site.title | default: site.github.repository_name }}</font></h1>
       </a>
-      <h2><font face="Consolas" color="#c6d9ec">{{ site.description | default: site.github.project_tagline }}</font></h2>
+      <h2><font face="Open Sans" color="#c6d9ec">{{ site.description | default: site.github.project_tagline }}</font></h2>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
       {% endif %}
