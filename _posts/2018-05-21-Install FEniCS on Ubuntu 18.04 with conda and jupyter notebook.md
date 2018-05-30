@@ -18,8 +18,14 @@ source activate fenicsproject
 conda install nb_conda_kernels
 ```
 
-3. Open jupyter notebook, and choose Notebook:
+3. Install other packages to this environment:
+```bash
+conda install -n fenicsproject tensorflow pytorch matplotlib scipy
+```
+
+4. Open jupyter notebook, and choose Notebook:
 ```
 Python [conda env:fenicsproject]
 ```
+
 
