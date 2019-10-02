@@ -7,6 +7,8 @@ layout: post
 
 #### Part I: Instead of saving the whole model using `model.save()`, use `model.to_json()` and `model.save_weights()`.
 
+<!-- more -->
+
 Example:
 ```python
 from tensorflow.keras.models import model_from_json
@@ -51,4 +53,4 @@ class Multi_NN:
             K.clear_session()
 ```
 
-In this approach, the training time for 11 two-dense-layer models of 24 hidden units in each layer trained on 400 samples with 10000 epochs and early_stopping used decreased from 360s to 80s.
+In this approach, the training time for 11 two-dense-layer models of 24 hidden units in each layer trained on 400 samples with 10000 epochs and early_stopping used decreased from 360s to 80s, and the saving time decreased from 59 seconds to 6 seconds.
