@@ -1,6 +1,6 @@
 ---
 title: Accelerating Multi-NN model in Keras
-category: Dev
+category: [Machine Learning, Dev]
 tag: [Keras, Neural Networks]
 layout: post
 ---
@@ -14,7 +14,7 @@ Example:
 from tensorflow.keras.models import model_from_json
 
 def save(model, path):
-    model.save_weights("{0}/weights.h5".format(path))
+    model.save_weights("{0}/weights.h7".format(path))
     model_json = model.to_json()
     with open("{0}/model.json".format(path), "w") as f:
         f.write(model_json)
